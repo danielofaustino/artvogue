@@ -13,6 +13,7 @@ import {
   DropdownItem,
   NavbarText,
 } from 'reactstrap';
+import Whatsapp from 'react-bootstrap-icons/dist/icons/whatsapp';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,21 +23,22 @@ const Header = () => {
   return (
     <div>
       <Navbar className="text-white" color="primary" dark expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <NavbarBrand href="/">ART VOGUE</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="/components/">HOME</NavLink>
             </NavItem>
+
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
+                QUEM SOMOS
               </NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                SERVIÇOS
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>Option 1</DropdownItem>
@@ -45,8 +47,12 @@ const Header = () => {
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="/components/">QUEM SOMOS</NavLink>
+            </NavItem>
           </Nav>
-          <NavbarText>11 97548-9802</NavbarText>
+          <Whatsapp fill="#067C38" />
+          <NavbarText className="pl-1">11 97548-9802</NavbarText>
         </Collapse>
       </Navbar>
     </div>
