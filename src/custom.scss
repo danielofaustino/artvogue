@@ -1,13 +1,18 @@
 $primary: #ffffff;
-$secondary:#002855;
+$secondary: #002855;
 
 @import '~bootstrap/scss/bootstrap.scss';
 
 // Header component styles
 @import './components/Header/Header.scss';
 
-body {
+// Gallery component styles
+@import './components/Gallery/Gallery.scss';
 
+// Carousell component styles
+@import './components/Carousel/Carousell.scss';
+
+body {
   // to fix content hidden after config navbar as fixed
   padding-top: 6rem;
 }
