@@ -15,7 +15,7 @@ import {
 } from 'reactstrap';
 import Whatsapp from 'react-bootstrap-icons/dist/icons/whatsapp';
 
-import logo from '../assets/logo2.png';
+import logo from '../../assets/logo2.png';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,12 +24,12 @@ const Header = () => {
 
   return (
     <div>
-      <Navbar color="primary" light expand="md">
+      <Navbar color="primary" fixed="top" light expand="md">
         <NavbarBrand href="/">
           <img className="logo" src={logo} alt="Logo" />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
+        <Collapse isOpen={isOpen} navbar id="navbarScroll">
           <Nav className="mr-auto" navbar>
             <NavItem>
               <NavLink href="/components/">HOME</NavLink>
