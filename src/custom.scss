@@ -12,6 +12,10 @@ $secondary: #002855;
 // Carousell component styles
 @import './components/Carousel/Carousell.scss';
 
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+@import './components/Slick/Slick.scss';
+
 body {
   // to fix content hidden after config navbar as fixed
   padding-top: 6rem;
