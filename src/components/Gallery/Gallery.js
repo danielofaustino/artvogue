@@ -1,32 +1,26 @@
 import React from 'react';
-import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 import Carousell from '../Carousel/Carousell';
 
 const Gallery = () => (
-  <>
+  <div id="gallery">
     <Container>
       <Row>
-        <Col xl="5">
-          <Jumbotron>
-            <p className="display-4">SERVIÇOS</p>
-            <p className="display-4">OBRAS</p>
-            <p className="display-4">E REFORMAS</p>
-            <Row>
-              <Col>
-                <Button color="secondary">Orçamentos</Button>
-              </Col>
-              <Col>
-                <Button color="secondary">Portifólio</Button>
-              </Col>
-            </Row>
-          </Jumbotron>
+        <Col id="box" className="align-self-center" xl="5">
+          <h1 className="display-4">SERVIÇOS</h1>
+          <h1 className="display-4">OBRAS</h1>
+          <h1 className="display-4">E REFORMAS</h1>
+
+          <Button color="secondary">Orçamentos</Button>
+
+          <Button color="secondary">Portifólio</Button>
         </Col>
-        <Col xl="7">
+        <Col className="align-self-center text-center" xl="7">
           <Carousell />
         </Col>
       </Row>
     </Container>
-  </>
+  </div>
 );
 
 export default Gallery;

@@ -1,6 +1,17 @@
-//Padding Jumbotron
-@media (min-width: 576px) {
-  .jumbotron {
-    padding: 3.5rem 3em;
+.carousel img {
+  width: 100%;
+  height: 23.9rem;
+  border-radius: 10px;
+}
+.carousel {
+  width: auto;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .carousel img {
+    height: 50%;
   }
 }

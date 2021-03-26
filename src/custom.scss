@@ -1,8 +1,6 @@
 $primary: #ffffff;
 $secondary: #002855;
 
-
-
 @import '~bootstrap/scss/bootstrap.scss';
 
 // Header component styles
@@ -17,4 +15,12 @@ $secondary: #002855;
 body {
   // to fix content hidden after config navbar as fixed
   padding-top: 6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  body {
+    padding-top: 4.2rem;
+  }
 }
