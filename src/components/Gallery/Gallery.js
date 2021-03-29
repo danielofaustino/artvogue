@@ -4,9 +4,9 @@ import Carousell from '../Carousel/Carousell';
 
 const Gallery = () => (
   <div id="gallery">
-    <Container className="container-fluid d-block">
+    <Container>
       <Row>
-        <Col id="box" className="align-self-center" xl="5">
+        <Col className="content-box align-self-center" xl="5">
           <h1 className="display-4">SERVIÇOS</h1>
           <h1 className="display-4">OBRAS</h1>
           <h1 className="display-4">E REFORMAS</h1>
@@ -15,7 +15,7 @@ const Gallery = () => (
 
           <Button color="secondary">Portifólio</Button>
         </Col>
-        <Col className="align-self-center text-center" xl="7">
+        <Col className="align-self-center" xl="7">
           <Carousell />
         </Col>
       </Row>

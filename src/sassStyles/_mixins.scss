@@ -1,3 +1,4 @@
+@import './/variables';
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
   body {
@@ -6,21 +7,26 @@
   .navbar-brand img {
     height: 40px;
   }
+  #gallery {
+    margin-bottom: $margin;
+  }
 
   .carousel img {
     height: 50%;
   }
 
-  #box {
+  .content-box {
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: $margin;
+    margin-top: $margin;
   }
 
-  #box h1 {
+  .content-box h1 {
     font-size: 2.5rem;
   }
 
@@ -33,15 +39,23 @@
   }
 
   .slick-prev:before,
-.slick-next:before {
-  color: transparent;
-  position:relative;
-}
+  .slick-next:before {
+    color: transparent;
+    position: relative;
+  }
 
-.slick-prev:before,
-.slick-next:before {
-  color: transparent;
-  position:relative;
-}
+  .slick-prev:before,
+  .slick-next:before {
+    color: transparent;
+    position: relative;
+  }
 
+  #about {
+    padding: 15px;
+  }
+
+  .about-content {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
 }

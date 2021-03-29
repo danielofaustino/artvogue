@@ -1,20 +1,10 @@
 @import '../../sassStyles/mixins';
 
-#box {
-  -webkit-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
-  -moz-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
-  box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
-  padding: 3.5rem;
-  border-radius: 10px;
-  margin:10px 0 10px 0;
-}
-
-#box button {
+.content-box button {
   padding: 10px;
 }
 
 // button 'Orçamentos'
-#box > button:nth-child(4) {
+.content-box > button:nth-child(4) {
   margin-right: 15px;
 }
-
