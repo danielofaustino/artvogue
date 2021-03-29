@@ -1,29 +1,20 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
 import logo from '../../assets/logo3.png';
 
 export default function Quotation() {
   return (
-    <Container id="quotation">
+    <Container>
       <Row>
-        <Col sm={12} id="quotation-logo">
-          <img
-            src={logo}
-            alt="logo"
-            height="5px"
-            weight="150px"
-            className="img-fluid"
-          />
-        </Col>
-      </Row>
-      <Row>
-        <Col sm={12} id="quotation-text">
-          <h2> Solitice um Orçamento</h2>
-        </Col>
-      </Row>
-      <Row>
-        <Col id="quotation-button">
-          <Button>Orçamento</Button>
+        <Col cl={12}>
+          <Jumbotron id="quotation">
+            <img src={logo} alt="logo" height="68px" />
+            <h3>SOLICITE UM ORÇAMENTO</h3>
+
+            <p>
+              <Button variant="primary">Orçamento</Button>
+            </p>
+          </Jumbotron>
         </Col>
       </Row>
     </Container>

@@ -64,16 +64,19 @@
     margin-bottom: 1rem;
   }
   #quotation {
-    padding: 50px;
+    -webkit-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
+    -moz-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
+    box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
+    background: white;
+    margin: 32px 0px 32px 0px;
+    color: $textLightColor;
   }
-  #quotation-logo {
-    height: 5px;
-    padding-bottom: 5rem;
-  }
- 
 
-  #quotation-text {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+  #quotation img {
+    padding-bottom: 16px;
+  }
+
+  #quotation h3 {
+    padding-bottom: 16px;
   }
 }
