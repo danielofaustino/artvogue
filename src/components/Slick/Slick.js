@@ -1,4 +1,4 @@
-import { Container, Card } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 import React from 'react';
 import Slider from 'react-slick';
@@ -43,29 +43,77 @@ export default function Slick() {
   return (
     <Container id="services">
       <Slider {...settings}>
-        <Card className="text-center" color="secondary">
-          <img src={Eletrica} alt="eletica" />
-        </Card>
         <div>
-          <h3>2</h3>
+          <div className="services-item">
+            <a href="/" className="destaque">
+              <div className="img-container">
+                <img src={Eletrica} alt="eletica" className="mx-auto d-block" />
+              </div>
+            </a>
+          </div>
+          <a href="/" className="destaque_title">
+            ELETRICA
+          </a>
         </div>
         <div>
-          <h3>3</h3>
+          <div className="services-item">
+            <a href="/" className="destaque">
+              <div className="img-container">
+                <img src={Eletrica} alt="eletica" className="mx-auto d-block" />
+              </div>
+            </a>
+          </div>
+          <a href="/" className="destaque_title">
+            ELETRICA
+          </a>
         </div>
         <div>
-          <h3>4</h3>
+          <div className="services-item">
+            <a href="/" className="destaque">
+              <div className="img-container">
+                <img src={Eletrica} alt="eletica" className="mx-auto d-block" />
+              </div>
+            </a>
+          </div>
+          <a href="/" className="destaque_title">
+            ELETRICA
+          </a>
         </div>
         <div>
-          <h3>5</h3>
+          <div className="services-item">
+            <a href="/" className="destaque">
+              <div className="img-container">
+                <img src={Eletrica} alt="eletica" className="mx-auto d-block" />
+              </div>
+            </a>
+          </div>
+          <a href="/" className="destaque_title">
+            ELETRICA
+          </a>
         </div>
         <div>
-          <h3>6</h3>
+          <div className="services-item">
+            <a href="/" className="destaque">
+              <div className="img-container">
+                <img src={Eletrica} alt="eletica" className="mx-auto d-block" />
+              </div>
+            </a>
+          </div>
+          <a href="/" className="destaque_title">
+            ELETRICA
+          </a>
         </div>
         <div>
-          <h3>7</h3>
-        </div>
-        <div>
-          <h3>8</h3>
+          <div className="services-item">
+            <a href="/" className="destaque">
+              <div className="img-container">
+                <img src={Eletrica} alt="eletica" className="mx-auto d-block" />
+              </div>
+            </a>
+          </div>
+          <a href="/" className="destaque_title">
+            ELETRICA
+          </a>
         </div>
       </Slider>
     </Container>
