@@ -1,14 +1,16 @@
-import { Container } from 'reactstrap';
+import { Container, Card } from 'reactstrap';
 
 import React from 'react';
 import Slider from 'react-slick';
+import Eletrica from '../../assets/services/eletrica.svg';
 
 export default function Slick() {
   const settings = {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
+    variableWidth: false,
+    slidesToShow: 6,
     slidesToScroll: 4,
     initialSlide: 0,
     responsive: [
@@ -39,11 +41,11 @@ export default function Slick() {
     ],
   };
   return (
-    <Container>
+    <Container id="services">
       <Slider {...settings}>
-        <div>
-          <h3>1</h3>
-        </div>
+        <Card className="text-center" color="secondary">
+          <img src={Eletrica} alt="eletica" />
+        </Card>
         <div>
           <h3>2</h3>
         </div>
