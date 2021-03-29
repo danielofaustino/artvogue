@@ -20,6 +20,9 @@
 //ClientsCounter Styles
 @import '../components/ClientsCounter/ClientsCounter.scss';
 
+//ClientsBrand Styles
+@import '../components/ClientsBrand/ClientsBrand.scss';
+
 body {
   // to fix content hidden after config navbar as fixed
   padding-top: 6rem;

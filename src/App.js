@@ -5,6 +5,7 @@ import Gallery from './components/Gallery/Gallery';
 import Slick from './components/Slick/Slick';
 import About from './components/About/About';
 import ClientsCounter from './components/ClientsCounter/ClientsCounter';
+import ClientsBrand from './components/ClientsBrand/ClientsBrand';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Slick />
       <About />
       <ClientsCounter />
+      <ClientsBrand />
     </div>
   );
 }
