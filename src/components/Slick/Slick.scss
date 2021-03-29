@@ -5,7 +5,7 @@
 
 #services {
   margin-top: 1rem;
-  padding:0px;
+  padding: 0px;
 }
 .services-item {
   background-color: $secondary;
@@ -22,7 +22,7 @@
 
 .destaque_title {
   font-weight: 500;
-  margin-top:5px;
+  margin-top: 5px;
   display: block;
   color: $secondaryColor;
   text-align: center;
@@ -37,4 +37,20 @@
 
 .img-container {
   margin: 0 5px 0 5px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+  position:relative;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+  position:relative;
+}
+
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before{
+  opacity:.80;
 }

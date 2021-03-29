@@ -15,7 +15,7 @@ import {
 } from 'reactstrap';
 import Whatsapp from 'react-bootstrap-icons/dist/icons/whatsapp';
 
-import logo from '../../assets/logo2.png';
+import logo from '../../assets/logo3.png';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,10 +23,10 @@ const Header = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className="container-fluid d-block">
       <Navbar color="primary" fixed="top" light expand="md">
         <NavbarBrand href="/">
-          <img className="logo" src={logo} alt="Logo" />
+          <img className="logo" height="60px" src={logo} alt="Logo" />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar id="navbarScroll">

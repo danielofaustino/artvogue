@@ -4,7 +4,7 @@ import Carousell from '../Carousel/Carousell';
 
 const Gallery = () => (
   <div id="gallery">
-    <Container>
+    <Container className="container-fluid d-block">
       <Row>
         <Col id="box" className="align-self-center" xl="5">
           <h1 className="display-4">SERVIÇOS</h1>

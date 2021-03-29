@@ -11,7 +11,7 @@ export default function Slick() {
     speed: 500,
     variableWidth: false,
     slidesToShow: 6,
-    slidesToScroll: 4,
+    slidesToScroll: 2,
     initialSlide: 0,
     responsive: [
       {
@@ -34,15 +34,28 @@ export default function Slick() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
+          dots: true,
         },
       },
     ],
   };
   return (
-    <Container id="services">
+    <Container className="container d-block" id="services">
       <Slider {...settings}>
+        <div>
+          <div className="services-item">
+            <a href="/" className="destaque">
+              <div className="img-container">
+                <img src={Eletrica} alt="eletica" className="mx-auto d-block" />
+              </div>
+            </a>
+          </div>
+          <a href="/" className="destaque_title">
+            ELETRICA
+          </a>
+        </div>
         <div>
           <div className="services-item">
             <a href="/" className="destaque">
