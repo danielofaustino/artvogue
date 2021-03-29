@@ -7,6 +7,7 @@ import About from './components/About/About';
 import ClientsCounter from './components/ClientsCounter/ClientsCounter';
 import ClientsBrand from './components/ClientsBrand/ClientsBrand';
 import Quotation from './components/Quotation/Quotation';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ClientsCounter />
       <ClientsBrand />
       <Quotation />
+      <Footer />
     </div>
   );
 }

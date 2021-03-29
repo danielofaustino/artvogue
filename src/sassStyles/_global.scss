@@ -26,6 +26,9 @@
 //Quotation Styles
 @import '../components/Quotation/Quotation.scss';
 
+//Footer Styles
+@import '../components/Footer/Footer.scss';
+
 body {
   // to fix content hidden after config navbar as fixed
   padding-top: 6rem;
