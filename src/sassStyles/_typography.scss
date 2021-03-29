@@ -1,6 +1,13 @@
+@import '../sassStyles/variables';
+
 #box h1 {
   font-weight: 400;
 }
 .nav-item {
   font-weight: 500;
+}
+
+#quotation-text {
+  font-family: Roboto Light;
+  color: $textLightColor;
 }

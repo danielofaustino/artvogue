@@ -23,6 +23,9 @@
 //ClientsBrand Styles
 @import '../components/ClientsBrand/ClientsBrand.scss';
 
+//Quotation Styles
+@import '../components/Quotation/Quotation.scss';
+
 body {
   // to fix content hidden after config navbar as fixed
   padding-top: 6rem;
