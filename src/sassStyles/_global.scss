@@ -1,0 +1,25 @@
+
+@import './custom';
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+// Header component styles
+@import '../components/Header/Header.scss';
+
+// Gallery component styles
+@import '../components/Gallery/Gallery.scss';
+
+// Carousell component styles
+@import '../components/Carousel/Carousell.scss';
+
+
+body {
+  // to fix content hidden after config navbar as fixed
+  padding-top: 6rem;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+
