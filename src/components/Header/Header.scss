@@ -23,3 +23,8 @@
   color: $orangeColor !important;
   transition: all ease-out 0.2s;
 }
+
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border-color: $secondary;
+}
