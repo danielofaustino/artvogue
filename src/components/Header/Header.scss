@@ -6,6 +6,20 @@
   box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
 }
 
-.nav-item {
-  color: $textColor;
+.nav-link {
+  color: $textLightColor !important;
+}
+
+.nav-link:hover {
+  color: $orangeColor !important;
+  transition: all ease-out 0.2s;
+}
+
+.navbar-text {
+  color: $textLightColor !important;
+}
+
+.navbar-text:hover {
+  color: $orangeColor !important;
+  transition: all ease-out 0.2s;
 }

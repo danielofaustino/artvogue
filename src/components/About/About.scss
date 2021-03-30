@@ -1,9 +1,9 @@
+@import '../../sassStyles/variables';
 .about-content {
   -webkit-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
   -moz-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
   box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
   padding: 2rem;
-  border-radius: 10px;
-  margin-top: 2rem;
+  border-radius: $border-radius;
   color: $textLightColor;
 }

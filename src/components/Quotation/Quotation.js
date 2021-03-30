@@ -4,7 +4,7 @@ import logo from '../../assets/logo3.png';
 
 export default function Quotation() {
   return (
-    <Container>
+    <Container className="mt-5">
       <Row>
         <Col cl={12}>
           <Jumbotron id="quotation">

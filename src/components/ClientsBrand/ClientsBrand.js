@@ -42,7 +42,7 @@ export default function ClientsBrand() {
     ],
   };
   return (
-    <Container className="container d-block" id="clients-brand">
+    <Container className="container d-block my-2" id="clients-brand">
       <Slider {...settings}>
         <div>
           <div className="brand-item">

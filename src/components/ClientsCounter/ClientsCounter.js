@@ -5,7 +5,7 @@ import Plus from 'react-bootstrap-icons/dist/icons/plus';
 
 export default function ClientsCounter() {
   return (
-    <Container id="clients-counter">
+    <Container id="clients-counter" className="mt-2 mb-5">
       <Row>
         <Col className="counter">
           <div className="icon">
@@ -13,7 +13,7 @@ export default function ClientsCounter() {
           </div>
 
           <div className="text">
-            DE <CountUp delay={2} duration={8} end={1000} /> REFORMAS CONCLUIDAS
+            DE <CountUp delay={3} duration={5} end={1000} /> REFORMAS CONCLUIDAS
           </div>
         </Col>
       </Row>

@@ -42,7 +42,7 @@ export default function Slick() {
     ],
   };
   return (
-    <Container className="container d-block" id="services">
+    <Container className="container my-5" id="services">
       <Slider {...settings}>
         <div>
           <div className="services-item">
