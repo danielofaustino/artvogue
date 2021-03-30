@@ -1,61 +1,9 @@
 import { Container } from 'reactstrap';
-
 import React from 'react';
 import Slider from 'react-slick';
-
-// importing assets
-import Revestimentos from '../../assets/services/revestimentos.svg';
-import Eletrica from '../../assets/services/eletrica.svg';
-import Pintura from '../../assets/services/pintura.svg';
-import Hidraulica from '../../assets/services/hidraulica.svg';
-import Iluminacao from '../../assets/services/iluminacao.svg';
+import { servicesItens } from '../../data';
 
 export default function Slick() {
-  const services = [
-    {
-      title: 'Revestimentos',
-      src: Revestimentos,
-      alt: 'Revestimentos',
-      href: `/services`,
-    },
-    {
-      title: 'Elétrica',
-      src: Eletrica,
-      alt: 'Elétrica',
-      href: `/services`,
-    },
-    {
-      title: 'Pintura',
-      src: Pintura,
-      alt: 'Pintura',
-      href: `/services`,
-    },
-    {
-      title: 'Hidraulica',
-      src: Hidraulica,
-      alt: 'Hidraulica',
-      href: `/services`,
-    },
-    {
-      title: 'Iluminação',
-      src: Iluminacao,
-      alt: 'Iluminação',
-      href: `/services`,
-    },
-    {
-      title: 'Eletrica',
-      src: Eletrica,
-      alt: 'Eletrica',
-      href: `/services`,
-    },
-    {
-      title: 'Eletrica',
-      src: Eletrica,
-      alt: 'Eletrica',
-      href: `/services`,
-    },
-  ];
-
   const settings = {
     dots: true,
     infinite: false,
@@ -95,7 +43,7 @@ export default function Slick() {
   return (
     <Container className="container my-5" id="services">
       <Slider {...settings}>
-        {services.map((x) => (
+        {servicesItens.map((x) => (
           <div>
             <div className="services-item">
               <a href={`${x.href} ${x.title}`} className="destaque">
