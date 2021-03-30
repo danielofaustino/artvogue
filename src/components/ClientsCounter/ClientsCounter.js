@@ -9,11 +9,15 @@ export default function ClientsCounter() {
       <Row>
         <Col className="counter">
           <div className="icon">
-            <Plus color="#fe914e" size={96} />
+            <Plus color="#fe914e" size={85} />
           </div>
 
           <div className="text">
-            DE <CountUp delay={3} duration={5} end={1000} /> REFORMAS CONCLUIDAS
+            DE{' '}
+            <b>
+              <CountUp delay={3} duration={5} end={1000} />
+            </b>{' '}
+            REFORMAS CONCLUIDAS
           </div>
         </Col>
       </Row>
