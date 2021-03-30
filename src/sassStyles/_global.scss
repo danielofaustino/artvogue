@@ -29,6 +29,12 @@
 //Footer Styles
 @import '../components/Footer/Footer.scss';
 
+//ServiceBox Styles
+@import '../Pages/PageNotFound.scss';
+
+//ServicesBox Styles
+@import '../Pages/ServicesBox.scss';
+
 body {
   // to fix content hidden after config navbar as fixed
   padding-top: 8rem;
@@ -36,5 +42,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-

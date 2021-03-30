@@ -16,43 +16,43 @@ export default function Slick() {
       title: 'Revestimentos',
       src: Revestimentos,
       alt: 'Revestimentos',
-      href: '/',
+      href: `/services`,
     },
     {
       title: 'Elétrica',
       src: Eletrica,
       alt: 'Elétrica',
-      href: '/',
+      href: `/services`,
     },
     {
       title: 'Pintura',
       src: Pintura,
       alt: 'Pintura',
-      href: '/',
+      href: `/services`,
     },
     {
       title: 'Hidraulica',
       src: Hidraulica,
       alt: 'Hidraulica',
-      href: '/',
+      href: `/services`,
     },
     {
       title: 'Iluminação',
       src: Iluminacao,
       alt: 'Iluminação',
-      href: '/',
+      href: `/services`,
     },
     {
       title: 'Eletrica',
       src: Eletrica,
       alt: 'Eletrica',
-      href: '/',
+      href: `/services`,
     },
     {
       title: 'Eletrica',
       src: Eletrica,
       alt: 'Eletrica',
-      href: '/',
+      href: `/services`,
     },
   ];
 
@@ -98,7 +98,7 @@ export default function Slick() {
         {services.map((x) => (
           <div>
             <div className="services-item">
-              <a href={x.href} className="destaque">
+              <a href={`${x.href} ${x.title}`} className="destaque">
                 <div className="img-container">
                   <img
                     src={x.src}
