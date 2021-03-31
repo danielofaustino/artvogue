@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" exact component={Gallery} />
-          <Route path="/services:title" exact component={ServicesBox} />
+          <Route path="/services/:id" exact component={ServicesBox} />
         </Switch>
       </Router>
       <Slick />

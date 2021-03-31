@@ -1,7 +1,7 @@
 import { Container } from 'reactstrap';
 import React from 'react';
 import Slider from 'react-slick';
-import { servicesItens } from '../../data';
+import { servicesItens } from '../../servicesData';
 
 export default function Slick() {
   const settings = {
@@ -46,10 +46,10 @@ export default function Slick() {
         {servicesItens.map((x) => (
           <div>
             <div className="services-item">
-              <a href={`${x.href} ${x.title}`} className="destaque">
+              <a href={`${x.href}${x.id}`} className="destaque">
                 <div className="img-container">
                   <img
-                    src={x.src}
+                    src={x.iconSrc}
                     alt={x.alt}
                     Style="height:109px;width:120px"
                     className="mx-auto d-block"

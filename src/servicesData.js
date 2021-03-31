@@ -6,53 +6,63 @@ import Pintura from './assets/services/pintura.svg';
 import Hidraulica from './assets/services/hidraulica.svg';
 import Iluminacao from './assets/services/iluminacao.svg';
 
+import foto from './assets/gallery/gallery1.png';
+
 export const servicesItens = [
   {
+    id: 1,
     title: 'Revestimentos',
-    src: Revestimentos,
+    iconSrc: Revestimentos,
     alt: 'Revestimentos',
-    href: `/services`,
+    href: `/services/`,
+    form: 'https://www.google.com.br',
     description: [
       'Instalação Elétrica Residencial',
       'Instalação Eletrica Predial',
       'Instalação Eletrica Comercial',
     ],
-    images: [''],
+    images: [foto, foto, foto],
   },
   {
+    id: 2,
     title: 'Elétrica',
-    src: Eletrica,
+    iconSrc: Eletrica,
     alt: 'Elétrica',
-    href: `/services`,
+    href: `/services/`,
   },
   {
+    id: 3,
     title: 'Pintura',
-    src: Pintura,
+    iconSrc: Pintura,
     alt: 'Pintura',
-    href: `/services`,
+    href: `/services/`,
   },
   {
+    id: 4,
     title: 'Hidraulica',
-    src: Hidraulica,
+    iconSrc: Hidraulica,
     alt: 'Hidraulica',
-    href: `/services`,
+    href: `/services/`,
   },
   {
+    id: 5,
     title: 'Iluminação',
-    src: Iluminacao,
+    iconSrc: Iluminacao,
     alt: 'Iluminação',
-    href: `/services`,
+    href: `/services/`,
   },
   {
+    id: 6,
     title: 'Eletrica',
-    src: Eletrica,
+    iconSrc: Eletrica,
     alt: 'Eletrica',
-    href: `/services`,
+    href: `/services/`,
   },
   {
+    id: 7,
     title: 'Eletrica',
-    src: Eletrica,
+    iconSrc: Eletrica,
     alt: 'Eletrica',
-    href: `/services`,
+    href: `/services/`,
   },
 ];
