@@ -35,6 +35,9 @@
 //ServicesBox Styles
 @import '../Pages/ServicesBox.scss';
 
+//Contacts Styles
+@import '../components/Contacts/Contacts.scss';
+
 body {
   // to fix content hidden after config navbar as fixed
   padding-top: 8rem;

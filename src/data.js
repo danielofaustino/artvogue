@@ -20,7 +20,7 @@ export const servicesItens = [
     title: 'Climatização',
     iconSrc: Climatizacao,
     alt: 'Climatização',
-    href: `/services/`,
+    href: `/services/1`,
     form: 'https://www.google.com.br',
     description: [
       'Instalação Elétrica Residencial',
@@ -35,7 +35,7 @@ export const servicesItens = [
     title: 'Elétrica',
     iconSrc: Eletrica,
     alt: 'Elétrica',
-    href: `/services/`,
+    href: `/services/2`,
     form: 'https://www.google.com.br',
     description: [
       'Instalação Elétrica Residencial',
@@ -49,7 +49,7 @@ export const servicesItens = [
     title: 'Iluminação',
     iconSrc: Iluminacao,
     alt: 'Iluminação',
-    href: `/services/`,
+    href: `/services/3`,
     form: 'https://www.google.com.br',
     description: [
       'Instalação Elétrica Residencial',
@@ -64,7 +64,7 @@ export const servicesItens = [
     title: 'Hidraulica',
     iconSrc: Hidraulica,
     alt: 'Hidraulica',
-    href: `/services/`,
+    href: `/services/4`,
     form: 'https://www.google.com.br',
     description: [
       'Instalação Elétrica Residencial',
@@ -78,7 +78,7 @@ export const servicesItens = [
     title: 'Pintura',
     iconSrc: Pintura,
     alt: 'Pintura',
-    href: `/services/`,
+    href: `/services/5`,
     form: 'https://www.google.com.br',
     description: [
       'Instalação Elétrica Residencial',
@@ -93,7 +93,7 @@ export const servicesItens = [
     title: 'Drywall',
     iconSrc: Drywall,
     alt: 'Drywall',
-    href: `/services/`,
+    href: `/services/6`,
     form: 'https://www.google.com.br',
     description: [
       'Instalação Elétrica Residencial',
@@ -107,7 +107,7 @@ export const servicesItens = [
     title: 'Obra',
     iconSrc: Obra,
     alt: 'Obra',
-    href: `/services/`,
+    href: `/services/7`,
     form: 'https://www.google.com.br',
     description: [
       'Instalação Elétrica Residencial',
@@ -121,7 +121,7 @@ export const servicesItens = [
     title: 'Vidros e Espelhos',
     iconSrc: Vidros,
     alt: 'Vidros e Espelhos',
-    href: `/services/`,
+    href: `/services/8`,
     form: 'https://www.google.com.br',
     description: [
       'Instalação Elétrica Residencial',
@@ -135,7 +135,7 @@ export const servicesItens = [
     title: 'Revestimentos',
     iconSrc: Revestimentos,
     alt: 'Revestimentos',
-    href: `/services/`,
+    href: `/services/9`,
     form: 'https://www.google.com.br',
     description: [
       'Instalação Elétrica Residencial',
@@ -150,7 +150,7 @@ export const servicesItens = [
     title: 'Marmoraria',
     iconSrc: Marmoraria,
     alt: 'Marmoraria',
-    href: `/services/`,
+    href: `/services/10`,
     form: 'https://www.google.com.br',
     description: [
       'Instalação Elétrica Residencial',

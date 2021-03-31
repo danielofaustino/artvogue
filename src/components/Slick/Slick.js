@@ -46,7 +46,7 @@ export default function Slick() {
         {servicesItens.map((x) => (
           <div>
             <div className="services-item">
-              <a href={`${x.href}${x.id}`} className="destaque">
+              <a href={x.href} className="destaque">
                 <div className="img-container">
                   <img
                     src={x.iconSrc}

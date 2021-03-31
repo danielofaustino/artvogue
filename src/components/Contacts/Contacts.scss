@@ -1,0 +1,34 @@
+@import '../../sassStyles/variables';
+
+#contact {
+  -webkit-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
+  -moz-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
+  box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
+  background: white;
+  margin: 0px 0px 32px 0px;
+  color: $textLightColor;
+  padding: 48px 128px 96px 128px;
+  border-radius: $border-radius;
+}
+
+#contact img {
+  padding-bottom: 16px;
+}
+
+#contact h1 {
+  padding-bottom: 16px;
+}
+
+#bootstrapForm > input:nth-child(7) {
+  background-color: $secondary;
+  color: white;
+  align-content: center;
+}
+
+#contact input {
+  margin-bottom: 2rem;
+}
+
+#contact textarea {
+  margin-bottom: 2rem;
+}

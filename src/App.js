@@ -1,34 +1,23 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import React from 'react';
-import Header from './components/Header/Header';
-import Gallery from './components/Gallery/Gallery';
-import Slick from './components/Slick/Slick';
-import About from './components/About/About';
-import ClientsCounter from './components/ClientsCounter/ClientsCounter';
-import ClientsBrand from './components/ClientsBrand/ClientsBrand';
-import Quotation from './components/Quotation/Quotation';
-import Footer from './components/Footer/Footer';
-// import PageNotFund from './Pages/PageNotFound';
-import ServicesBox from './Pages/ServicesBox';
+import Home from './Pages/Home';
+import Contact from './Pages/Contact';
+
+import Services from './Pages/Services';
+import Aboutus from './Pages/Aboutus';
 
 function App() {
   return (
     <div className="App container-flex">
-      <Header />
-
       <Router>
         <Switch>
-          <Route path="/" exact component={Gallery} />
-          <Route path="/services/:id" exact component={ServicesBox} />
+          <Route path="/" exact component={Home} />
+          <Route path="/about" exact component={Aboutus} />
+          <Route path="/services/:id" exact component={Services} />
+          <Route path="/contatos" exact component={Contact} />
         </Switch>
       </Router>
-      <Slick />
-      <About />
-      <ClientsCounter />
-      <ClientsBrand />
-      <Quotation />
-      <Footer />
     </div>
   );
 }

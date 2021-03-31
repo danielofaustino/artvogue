@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import {
   Collapse,
   Navbar,
@@ -14,6 +15,7 @@ import {
   NavbarText,
 } from 'reactstrap';
 import Whatsapp from 'react-bootstrap-icons/dist/icons/whatsapp';
+import { servicesItens } from '../../data';
 
 import logo from '../../assets/logo3.png';
 
@@ -32,27 +34,27 @@ const Header = () => {
         <Collapse isOpen={isOpen} navbar id="navbarScroll">
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">HOME</NavLink>
+              <NavLink href="/">HOME</NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                QUEM SOMOS
-              </NavLink>
+              <NavLink href="/about">QUEM SOMOS</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 SERVIÇOS
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
+                <DropdownItem href="/services/1">Serviços</DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
+
+                {servicesItens.map((x) => (
+                  <DropdownItem href={x.href}>{x.title}</DropdownItem>
+                ))}
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="/components/">CONTATOS</NavLink>
+              <NavLink href="/contatos">CONTATOS</NavLink>
             </NavItem>
           </Nav>
           <Whatsapp width="2em" height="2em" fill="#067c38" />
