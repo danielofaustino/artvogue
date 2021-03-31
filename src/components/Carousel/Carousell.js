@@ -1,7 +1,7 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
 import gallery1 from '../../assets/gallery/gallery1.jpeg';
-import gallery2 from '../../assets/gallery/gallery2.png';
+import gallery2 from '../../assets/gallery/gallery2.jpeg';
 import gallery3 from '../../assets/gallery/gallery3.jpg';
 
 const items = [
