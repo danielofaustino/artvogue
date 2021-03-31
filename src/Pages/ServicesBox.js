@@ -2,7 +2,7 @@ import { React, useEffect, useState } from 'react';
 import { Container, Col, Row, Button, UncontrolledCarousel } from 'reactstrap';
 import { useParams } from 'react-router-dom';
 
-import { servicesItens } from '../servicesData';
+import { servicesItens } from '../data';
 
 export default function ServicesBox() {
   const { id } = useParams();

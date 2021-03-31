@@ -1,7 +1,7 @@
 import { Container } from 'reactstrap';
 import React from 'react';
 import Slider from 'react-slick';
-import { servicesItens } from '../../servicesData';
+import { servicesItens } from '../../data';
 
 export default function Slick() {
   const settings = {
