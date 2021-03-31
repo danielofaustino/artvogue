@@ -9,3 +9,23 @@
   border-radius: $border-radius;
   color: $textLightColor;
 }
+
+#service-box ul li::marker {
+  color: red;
+}
+
+::marker {
+  color: $greenColor;
+}
+
+#gallery > div > div.content-box.col-xl-5 > ul {
+  margin-top: 2rem;
+}
+
+#gallery > div > div.content-box.col-xl-5 > ul li {
+  margin-top: 0.5rem;
+}
+
+#gallery > div > div.content-box.col-xl-5 > a {
+  margin-top: 2rem;
+}
