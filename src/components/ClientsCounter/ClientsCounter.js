@@ -15,7 +15,7 @@ export default function ClientsCounter() {
           <div className="text">
             DE{' '}
             <b>
-              <CountUp delay={3} duration={5} end={1000} />
+              <CountUp delay={2} duration={5} end={1000} />
             </b>{' '}
             REFORMAS CONCLUIDAS
           </div>
