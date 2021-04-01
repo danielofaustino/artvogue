@@ -1,4 +1,4 @@
-@import './/variables';
+@import './variables';
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
   body {
@@ -79,5 +79,38 @@
 
   #quotation h3 {
     padding-bottom: 16px;
+  }
+
+  #contact {
+    -webkit-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
+    -moz-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
+    box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
+    background: white;
+    margin: 0px 0px 32px 0px;
+    color: $textLightColor;
+    padding: 16px 32px 16px 32px;
+    border-radius: $border-radius;
+  }
+
+  #contact img {
+    padding-bottom: 16px;
+  }
+
+  #contact h1 {
+    padding-bottom: 16px;
+  }
+
+  #bootstrapForm > input:nth-child(7) {
+    background-color: $secondaryColor;
+    color: white;
+    align-content: center;
+  }
+
+  #contact input {
+    margin-bottom: 2rem;
+  }
+
+  #contact textarea {
+    margin-bottom: 2rem;
   }
 }

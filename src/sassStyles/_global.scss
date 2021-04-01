@@ -45,3 +45,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.artvogue-forms .form-control {
+  height: 3rem;
+  border-color: $orangeColor;
+}
+
+.artvogue-forms {
+  font-family: Roboto;
+  color: $textLightColor;
+  border-radius: $border-radius;
+  padding: 5px;
+}
+.artvogue-forms .form-control {
+  height: 3rem;
+  border-color: $orangeColor;
+}
+
+.modal-title {
+  color: $secondary;
+}
+
