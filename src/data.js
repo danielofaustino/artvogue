@@ -12,6 +12,37 @@ import Vidros from './assets/services/vidros e espelhos.svg';
 import Climatizacao from './assets/services/climatização.svg';
 import Marmoraria from './assets/services/marmoraria.svg';
 
+// importing services-images
+import espelho1 from './assets/imgservices/espelho-1.jpg';
+import espelho2 from './assets/imgservices/espelho-2.jpeg';
+
+import climatizacao1 from './assets/imgservices/climatizacao-1.jpg';
+import climatizacao2 from './assets/imgservices/climatizacao-2.jpg';
+import climatizacao3 from './assets/imgservices/climatizacao-3.jpg';
+
+import eletrica1 from './assets/imgservices/eletrica-1.jpg';
+import eletrica2 from './assets/imgservices/eletrica-2.jpg';
+import eletrica3 from './assets/imgservices/eletrica-3.jpg';
+
+import iluminacao1 from './assets/imgservices/iluminacao-1.jpeg';
+import iluminacao2 from './assets/imgservices/iluminacao-2.jpeg';
+
+import hidraulica1 from './assets/imgservices/hidraulica-1.jpg';
+
+import pintura1 from './assets/imgservices/pintura-1.jpg';
+import pintura2 from './assets/imgservices/pintura-2.jpg';
+
+import gesso1 from './assets/imgservices/gesso-1.jpg';
+import gesso2 from './assets/imgservices/gesso-2.jpg';
+import gesso3 from './assets/imgservices/gesso-3.jpg';
+
+import pisos1 from './assets/imgservices/pisos-1.JPG';
+import pisos2 from './assets/imgservices/pisos-2.JPG';
+
+import marmoraria1 from './assets/imgservices/marmoraria-1.jpg';
+import marmoraria2 from './assets/imgservices/marmoraria-2.jpg';
+import marmoraria3 from './assets/imgservices/marmoraria-3.jpg';
+
 import img1 from './assets/gallery/gallery1.jpeg';
 
 export const servicesItens = [
@@ -24,7 +55,7 @@ export const servicesItens = [
     form: 'https://www.google.com.br',
     description:
       'Temos uma equipe especializada em instalação, conserto, manutenção preventiva e corretiva de ar condicionado nos segmentos do ramo industrial e residencial.',
-    images: [img1, img1, img1],
+    images: [climatizacao1, climatizacao2, climatizacao3],
   },
 
   {
@@ -36,7 +67,7 @@ export const servicesItens = [
     form: 'https://www.google.com.br',
     description:
       'Serviços de instalação, manutenção e reparo especializado em Elétrica Residencial, Comercial e Predial.',
-    images: [img1, img1, img1],
+    images: [eletrica1, eletrica2, eletrica3],
   },
   {
     id: 3,
@@ -47,7 +78,7 @@ export const servicesItens = [
     form: 'https://www.google.com.br',
     description:
       'Fazemos o planejamento e execução da iluminação para valorizar a decoração e a arquitetura do seu projeto. Fazendo com que cada ambiente transmita conforto e harmonia.',
-    images: [img1, img1, img1],
+    images: [iluminacao1, iluminacao2],
   },
 
   {
@@ -59,7 +90,7 @@ export const servicesItens = [
     form: 'https://www.google.com.br',
     description:
       'Serviços para o sistema de abastecimento, distribuição e escoamento de águal. Dentre as instalações estão: a de água fria e quente, as instalações de esgoto sanitário, de águas pluviais e os sistemas de combate a incêndio.',
-    images: [img1, img1, img1],
+    images: [hidraulica1],
   },
   {
     id: 5,
@@ -70,7 +101,7 @@ export const servicesItens = [
     form: 'https://www.google.com.br',
     description:
       'Pintura de alto padrão, com tecnologia e que segue as mais diversas tendencias do mercado para pintura predial, comercial e residencial.',
-    images: [img1, img1, img1],
+    images: [pintura1, pintura2],
   },
 
   {
@@ -82,7 +113,7 @@ export const servicesItens = [
     form: 'https://www.google.com.br',
     description:
       'Nossos serviços com gesso vão desde um sistema completo para paredes ou forros até acabamentos, sancas elaboração de móveis, expositores ou placas de gesso 3D.',
-    images: [img1, img1, img1],
+    images: [gesso1, gesso2, gesso3],
   },
   {
     id: 7,
@@ -93,7 +124,7 @@ export const servicesItens = [
     form: 'https://www.google.com.br',
     description:
       'Temos uma equipe completa e especializada para tirar a sua obra ou reforma do papel.',
-    images: [img1, img1, img1],
+    images: [img1],
   },
   {
     id: 8,
@@ -104,7 +135,7 @@ export const servicesItens = [
     form: 'https://www.google.com.br',
     description:
       'Produção e instalação de box para banheiro, guarda corpo, sacadas, janelas de vidro, portas e divisórias ou vidros e espelhos no geral sob medida.',
-    images: [img1, img1, img1],
+    images: [espelho1, espelho2],
   },
   {
     id: 9,
@@ -115,7 +146,7 @@ export const servicesItens = [
     form: 'https://www.google.com.br',
     description:
       'Fazemos a instalação e assentamento de pisos e revestimentos de todos os portes e nos mais diversos tipos de superfícies: piscinas, fachadas, balcões, paredes, halls, varandas, áreas comuns externas ou internas. Além de revestimentos para comércios, restaurantes e todo tipo de estabelecimento comercial.',
-    images: [img1, img1, img1],
+    images: [pisos1, pisos2],
   },
 
   {
@@ -127,6 +158,6 @@ export const servicesItens = [
     form: 'https://www.google.com.br',
     description:
       'Trabalhamos com diversas tonalidades de pedras de origem nacional ou importadas que atendem todos os gostos e estilos.',
-    images: [img1, img1, img1],
+    images: [marmoraria1, marmoraria2, marmoraria3],
   },
 ];
