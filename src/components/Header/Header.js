@@ -17,7 +17,7 @@ import {
 import Whatsapp from 'react-bootstrap-icons/dist/icons/whatsapp';
 import { servicesItens } from '../../data';
 
-import logo from '../../assets/logo3.png';
+import logo from '../../assets/logo.svg';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

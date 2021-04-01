@@ -15,7 +15,7 @@ import {
   Input,
 } from 'reactstrap';
 
-import logo from '../../assets/logo3.png';
+import logo from '../../assets/logo.svg';
 
 export default function Quotation() {
   const [modal, setModal] = useState(false);
