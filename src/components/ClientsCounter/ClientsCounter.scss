@@ -3,7 +3,6 @@
 #counter {
   text-align: center;
   color: $textLightColor;
-
 }
 
 .icon {
@@ -14,4 +13,10 @@
 .text {
   display: inline-block;
   vertical-align: middle;
+  color: $textLightColor;
+}
+
+#clientes-counter {
+  margin: 0 5px 0 5px;
+  font-size: 2rem;
 }
