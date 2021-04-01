@@ -28,3 +28,10 @@
   color: transparent;
   border-color: $secondary;
 }
+
+.dropdown-item {
+  color: $textLightColor;
+}
+.dropdown-item:hover {
+  color: $orangeColor;
+}
