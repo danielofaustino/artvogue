@@ -51,7 +51,7 @@ export default function ServicesBox() {
         <Col className="content-box " xl="5">
           <h1 className="display-4">{servicesItens[id - 1].title}</h1>
 
-          <h5>{servicesItens[id - 1].description}</h5>
+          <p>{servicesItens[id - 1].description}</p>
           <Button color="secondary" onClick={toggle}>
             Orçamento - {servicesItens[id - 1].title}{' '}
           </Button>
@@ -97,27 +97,23 @@ export default function ServicesBox() {
                 class="form-control"
               />
             </FormGroup>
-            <FormGroup>
-              <Label for="exampleSelectMulti">Serviços</Label>
-              <Input
-                type="select"
-                multiple
-                id="1795896370"
-                name="entry.801317577"
-                class="form-control"
-              >
-                <option value="Climatização">Climatização</option>
-                <option value="Elétrica">Elétrica</option>
-                <option value="Iluminação">Iluminação</option>
-                <option value="Hidráulica">Hidráulica</option>
-                <option value="Pintura">Pintura</option>
-                <option value="Drywall">Drywall</option>
-                <option value="Obra">Obra</option>
-                <option value="Vidros e Espelhos">Vidros e Espelhos</option>
-                <option value="Revestimentos">Revestimentos</option>
-                <option value="Marmoraria">Marmoraria</option>
-              </Input>
+            <FormGroup tag="fieldset">
+              <Label for="1795896370">Serviço para Cotação:</Label>
+
+              {servicesItens.map((x) => (
+                <FormGroup check>
+                  <Label check>
+                    <Input
+                      type="radio"
+                      name="entry.946292988"
+                      value={x.title}
+                    />{' '}
+                    {x.title}
+                  </Label>
+                </FormGroup>
+              ))}
             </FormGroup>
+
             <FormGroup>
               <Label for="1791839778">Descreva a sua necessidade:</Label>
               <Input

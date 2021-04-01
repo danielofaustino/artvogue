@@ -76,7 +76,7 @@ export default function Quotation() {
                 </FormGroup>
 
                 <FormGroup tag="fieldset">
-                  <legend htmlFor="511292062">Região de Atendimento:</legend>
+                  <Label for="511292062">Região de Atendimento:</Label>
                   <FormGroup check>
                     <Label check>
                       <Input

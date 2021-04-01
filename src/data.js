@@ -23,7 +23,7 @@ export const servicesItens = [
     href: `/services/1`,
     form: 'https://www.google.com.br',
     description:
-      'Especializados em instalação, conserto, manutenção preventiva e corretiva de ar condicionado nos segmentos do ramo industrial e residencial.',
+      'Temos uma equipe especializada em instalação, conserto, manutenção preventiva e corretiva de ar condicionado nos segmentos do ramo industrial e residencial.',
     images: [img1, img1, img1],
   },
 
@@ -34,11 +34,8 @@ export const servicesItens = [
     alt: 'Elétrica',
     href: `/services/2`,
     form: 'https://www.google.com.br',
-    description: [
-      'Instalação Elétrica Residencial',
-      'Instalação Eletrica Predial',
-      'Instalação Eletrica Comercial',
-    ],
+    description:
+      'Serviços de instalação, manutenção e reparo especializado em Elétrica Residencial, Comercial e Predial.',
     images: [img1, img1, img1],
   },
   {
@@ -48,11 +45,8 @@ export const servicesItens = [
     alt: 'Iluminação',
     href: `/services/3`,
     form: 'https://www.google.com.br',
-    description: [
-      'Instalação Elétrica Residencial',
-      'Instalação Eletrica Predial',
-      'Instalação Eletrica Comercial',
-    ],
+    description:
+      'Fazemos o planejamento e execução da iluminação para valorizar a decoração e a arquitetura do seu projeto. Fazendo com que cada ambiente transmita conforto e harmonia.',
     images: [img1, img1, img1],
   },
 
@@ -63,11 +57,8 @@ export const servicesItens = [
     alt: 'Hidraulica',
     href: `/services/4`,
     form: 'https://www.google.com.br',
-    description: [
-      'Instalação Elétrica Residencial',
-      'Instalação Eletrica Predial',
-      'Instalação Eletrica Comercial',
-    ],
+    description:
+      'Serviços para o sistema de abastecimento, distribuição e escoamento de águal. Dentre as instalações estão: a de água fria e quente, as instalações de esgoto sanitário, de águas pluviais e os sistemas de combate a incêndio.',
     images: [img1, img1, img1],
   },
   {
@@ -77,11 +68,8 @@ export const servicesItens = [
     alt: 'Pintura',
     href: `/services/5`,
     form: 'https://www.google.com.br',
-    description: [
-      'Instalação Elétrica Residencial',
-      'Instalação Eletrica Predial',
-      'Instalação Eletrica Comercial',
-    ],
+    description:
+      'Pintura de alto padrão, com tecnologia e que segue as mais diversas tendencias do mercado para pintura predial, comercial e residencial.',
     images: [img1, img1, img1],
   },
 
@@ -92,11 +80,8 @@ export const servicesItens = [
     alt: 'Drywall',
     href: `/services/6`,
     form: 'https://www.google.com.br',
-    description: [
-      'Instalação Elétrica Residencial',
-      'Instalação Eletrica Predial',
-      'Instalação Eletrica Comercial',
-    ],
+    description:
+      'Nossos serviços com gesso vão desde um sistema completo para paredes ou forros até acabamentos, sancas elaboração de móveis, expositores ou placas de gesso 3D.',
     images: [img1, img1, img1],
   },
   {
@@ -106,11 +91,8 @@ export const servicesItens = [
     alt: 'Obra',
     href: `/services/7`,
     form: 'https://www.google.com.br',
-    description: [
-      'Instalação Elétrica Residencial',
-      'Instalação Eletrica Predial',
-      'Instalação Eletrica Comercial',
-    ],
+    description:
+      'Temos uma equipe completa e especializada para tirar a sua obra ou reforma do papel.',
     images: [img1, img1, img1],
   },
   {
@@ -120,11 +102,8 @@ export const servicesItens = [
     alt: 'Vidros e Espelhos',
     href: `/services/8`,
     form: 'https://www.google.com.br',
-    description: [
-      'Instalação Elétrica Residencial',
-      'Instalação Eletrica Predial',
-      'Instalação Eletrica Comercial',
-    ],
+    description:
+      'Produção e instalação de box para banheiro, guarda corpo, sacadas, janelas de vidro, portas e divisórias ou vidros e espelhos no geral sob medida.',
     images: [img1, img1, img1],
   },
   {
@@ -134,11 +113,8 @@ export const servicesItens = [
     alt: 'Revestimentos',
     href: `/services/9`,
     form: 'https://www.google.com.br',
-    description: [
-      'Instalação Elétrica Residencial',
-      'Instalação Eletrica Predial',
-      'Instalação Eletrica Comercial',
-    ],
+    description:
+      'Fazemos a instalação e assentamento de pisos e revestimentos de todos os portes e nos mais diversos tipos de superfícies: piscinas, fachadas, balcões, paredes, halls, varandas, áreas comuns externas ou internas. Além de revestimentos para comércios, restaurantes e todo tipo de estabelecimento comercial.',
     images: [img1, img1, img1],
   },
 
@@ -149,11 +125,8 @@ export const servicesItens = [
     alt: 'Marmoraria',
     href: `/services/10`,
     form: 'https://www.google.com.br',
-    description: [
-      'Instalação Elétrica Residencial',
-      'Instalação Eletrica Predial',
-      'Instalação Eletrica Comercial',
-    ],
+    description:
+      'Trabalhamos com diversas tonalidades de pedras de origem nacional ou importadas que atendem todos os gostos e estilos.',
     images: [img1, img1, img1],
   },
 ];
