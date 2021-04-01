@@ -57,8 +57,15 @@ const Header = () => {
               <NavLink href="/contatos">CONTATOS</NavLink>
             </NavItem>
           </Nav>
-          <Whatsapp width="2em" height="2em" fill="#067c38" />
-          <NavbarText className="pl-1 pr-5">11 97548-9802</NavbarText>
+          <a
+            href="https://wa.me/5511981679358"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Whatsapp width="2em" height="2em" fill="#067c38" />
+
+            <NavbarText className="pl-1 pr-5">11 98167-9358</NavbarText>
+          </a>
         </Collapse>
       </Navbar>
     </div>

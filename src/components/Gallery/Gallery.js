@@ -11,7 +11,11 @@ export default function Gallery() {
           <h1 className="display-4">OBRAS</h1>
           <h1 className="display-4">E REFORMAS</h1>
 
-          <a href="/">
+          <a
+            href="https://www.instagram.com/artvogueoficial/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Button color="secondary">Visite nosso Instagram</Button>
           </a>
         </Col>
