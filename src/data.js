@@ -22,11 +22,8 @@ export const servicesItens = [
     alt: 'Climatização',
     href: `/services/1`,
     form: 'https://www.google.com.br',
-    description: [
-      'Instalação Elétrica Residencial',
-      'Instalação Eletrica Predial',
-      'Instalação Eletrica Comercial',
-    ],
+    description:
+      'Especializados em instalação, conserto, manutenção preventiva e corretiva de ar condicionado nos segmentos do ramo industrial e residencial.',
     images: [img1, img1, img1],
   },
 

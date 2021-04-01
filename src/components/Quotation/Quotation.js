@@ -27,7 +27,7 @@ export default function Quotation() {
         <Col cl={12}>
           <Jumbotron id="quotation">
             <img src={logo} alt="logo" height="68px" />
-            <h3>Seja nosso Parceiro</h3>
+            <h3>SEJA NOSSO PARCEIRO</h3>
 
             <p>
               <Button variant="primary" onClick={toggle}>
