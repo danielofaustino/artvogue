@@ -221,47 +221,47 @@ export const dataBase = [
     clients: [
       {
         src: clients1,
-        alt: '',
+        alt: 'loveena',
         key: '1',
       },
       {
         src: clients2,
-        alt: '',
+        alt: 'jac-motors',
         key: '2',
       },
       {
         src: clients3,
-        alt: '',
+        alt: 'em-academy',
         key: '3',
       },
       {
         src: clients4,
-        alt: '',
+        alt: 'jetpizzas',
         key: '4',
       },
       {
         src: clients5,
-        alt: '',
+        alt: 'quadrilatero',
         key: '5',
       },
       {
         src: clients6,
-        alt: '',
+        alt: 'leroy-merlin',
         key: '6',
       },
       {
         src: clients7,
-        alt: '',
+        alt: 'bic',
         key: '7',
       },
       {
         src: clients8,
-        alt: '',
+        alt: 'citroen',
         key: '8',
       },
       {
         src: clients9,
-        alt: '',
+        alt: 'jaguar',
         key: '9',
       },
     ],
