@@ -18,9 +18,10 @@ import {
 
 import { useParams } from 'react-router-dom';
 
-import { servicesItens } from '../data';
+import { dataBase } from '../data';
 
 export default function ServicesBox() {
+  const { services } = dataBase[0];
   const { id } = useParams();
 
   const [modal, setModal] = useState(false);
@@ -34,12 +35,12 @@ export default function ServicesBox() {
   }
 
   useEffect(() => {
-    const service = servicesItens[id - 1].images.map((x) => ({
+    const service = services[id - 1].images.map((x) => ({
       src: x,
-      altText: servicesItens[id - 1].alt,
+      altText: services[id - 1].alt,
       caption: '',
       header: '',
-      key: servicesItens[id - 1].id,
+      key: services[id - 1].id,
     }));
 
     handleService(service);
@@ -49,11 +50,11 @@ export default function ServicesBox() {
     <Container id="gallery" className="mt-2">
       <Row>
         <Col className="content-box " xl="5">
-          <h1 className="display-4">{servicesItens[id - 1].title}</h1>
+          <h1 className="display-4">{services[id - 1].title}</h1>
 
-          <p>{servicesItens[id - 1].description}</p>
+          <p>{services[id - 1].description}</p>
           <Button color="secondary" onClick={toggle}>
-            Orçamento - {servicesItens[id - 1].title}{' '}
+            Orçamento - {services[id - 1].title}{' '}
           </Button>
         </Col>
         <Col className="align-self-center" xl="7">
@@ -100,7 +101,7 @@ export default function ServicesBox() {
             <FormGroup tag="fieldset">
               <Label for="1795896370">Serviço para Cotação:</Label>
 
-              {servicesItens.map((x) => (
+              {services.map((x) => (
                 <FormGroup check>
                   <Label check>
                     <Input

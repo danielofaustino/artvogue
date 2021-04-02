@@ -1,9 +1,11 @@
 import { Container } from 'reactstrap';
 import React from 'react';
 import Slider from 'react-slick';
-import { servicesItens } from '../../data';
+import { dataBase } from '../../data';
 
 export default function Slick() {
+  const { services } = dataBase[0];
+
   const settings = {
     dots: true,
     infinite: false,
@@ -43,7 +45,7 @@ export default function Slick() {
   return (
     <Container className="container my-5" id="services">
       <Slider {...settings}>
-        {servicesItens.map((x) => (
+        {services.map((x) => (
           <div>
             <div className="services-item">
               <a href={x.href} className="destaque">

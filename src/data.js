@@ -45,119 +45,123 @@ import marmoraria3 from './assets/imgservices/marmoraria-3.jpg';
 
 import img1 from './assets/gallery/gallery1.jpeg';
 
-export const servicesItens = [
+export const dataBase = [
   {
-    id: 1,
-    title: 'Climatização',
-    iconSrc: Climatizacao,
-    alt: 'Climatização',
-    href: `/services/1`,
-    form: 'https://www.google.com.br',
-    description:
-      'Temos uma equipe especializada em instalação, conserto, manutenção preventiva e corretiva de ar condicionado nos segmentos do ramo industrial e residencial.',
-    images: [climatizacao1, climatizacao2, climatizacao3],
-  },
+    services: [
+      {
+        id: 1,
+        title: 'Climatização',
+        iconSrc: Climatizacao,
+        alt: 'Climatização',
+        href: `/services/1`,
+        form: 'https://www.google.com.br',
+        description:
+          'Temos uma equipe especializada em instalação, conserto, manutenção preventiva e corretiva de ar condicionado nos segmentos do ramo industrial e residencial.',
+        images: [climatizacao1, climatizacao2, climatizacao3],
+      },
 
-  {
-    id: 2,
-    title: 'Elétrica',
-    iconSrc: Eletrica,
-    alt: 'Elétrica',
-    href: `/services/2`,
-    form: 'https://www.google.com.br',
-    description:
-      'Serviços de instalação, manutenção e reparo especializado em Elétrica Residencial, Comercial e Predial.',
-    images: [eletrica1, eletrica2, eletrica3],
-  },
-  {
-    id: 3,
-    title: 'Iluminação',
-    iconSrc: Iluminacao,
-    alt: 'Iluminação',
-    href: `/services/3`,
-    form: 'https://www.google.com.br',
-    description:
-      'Fazemos o planejamento e execução da iluminação para valorizar a decoração e a arquitetura do seu projeto. Fazendo com que cada ambiente transmita conforto e harmonia.',
-    images: [iluminacao1, iluminacao2],
-  },
+      {
+        id: 2,
+        title: 'Elétrica',
+        iconSrc: Eletrica,
+        alt: 'Elétrica',
+        href: `/services/2`,
+        form: 'https://www.google.com.br',
+        description:
+          'Serviços de instalação, manutenção e reparo especializado em Elétrica Residencial, Comercial e Predial.',
+        images: [eletrica1, eletrica2, eletrica3],
+      },
+      {
+        id: 3,
+        title: 'Iluminação',
+        iconSrc: Iluminacao,
+        alt: 'Iluminação',
+        href: `/services/3`,
+        form: 'https://www.google.com.br',
+        description:
+          'Fazemos o planejamento e execução da iluminação para valorizar a decoração e a arquitetura do seu projeto. Fazendo com que cada ambiente transmita conforto e harmonia.',
+        images: [iluminacao1, iluminacao2],
+      },
 
-  {
-    id: 4,
-    title: 'Hidraulica',
-    iconSrc: Hidraulica,
-    alt: 'Hidraulica',
-    href: `/services/4`,
-    form: 'https://www.google.com.br',
-    description:
-      'Serviços para o sistema de abastecimento, distribuição e escoamento de águal. Dentre as instalações estão: a de água fria e quente, as instalações de esgoto sanitário, de águas pluviais e os sistemas de combate a incêndio.',
-    images: [hidraulica1],
-  },
-  {
-    id: 5,
-    title: 'Pintura',
-    iconSrc: Pintura,
-    alt: 'Pintura',
-    href: `/services/5`,
-    form: 'https://www.google.com.br',
-    description:
-      'Pintura de alto padrão, com tecnologia e que segue as mais diversas tendencias do mercado para pintura predial, comercial e residencial.',
-    images: [pintura1, pintura2],
-  },
+      {
+        id: 4,
+        title: 'Hidraulica',
+        iconSrc: Hidraulica,
+        alt: 'Hidraulica',
+        href: `/services/4`,
+        form: 'https://www.google.com.br',
+        description:
+          'Serviços para o sistema de abastecimento, distribuição e escoamento de águal. Dentre as instalações estão: a de água fria e quente, as instalações de esgoto sanitário, de águas pluviais e os sistemas de combate a incêndio.',
+        images: [hidraulica1],
+      },
+      {
+        id: 5,
+        title: 'Pintura',
+        iconSrc: Pintura,
+        alt: 'Pintura',
+        href: `/services/5`,
+        form: 'https://www.google.com.br',
+        description:
+          'Pintura de alto padrão, com tecnologia e que segue as mais diversas tendencias do mercado para pintura predial, comercial e residencial.',
+        images: [pintura1, pintura2],
+      },
 
-  {
-    id: 6,
-    title: 'Drywall',
-    iconSrc: Drywall,
-    alt: 'Drywall',
-    href: `/services/6`,
-    form: 'https://www.google.com.br',
-    description:
-      'Nossos serviços com gesso vão desde um sistema completo para paredes ou forros até acabamentos, sancas elaboração de móveis, expositores ou placas de gesso 3D.',
-    images: [gesso1, gesso2, gesso3],
-  },
-  {
-    id: 7,
-    title: 'Obra',
-    iconSrc: Obra,
-    alt: 'Obra',
-    href: `/services/7`,
-    form: 'https://www.google.com.br',
-    description:
-      'Temos uma equipe completa e especializada para tirar a sua obra ou reforma do papel.',
-    images: [img1],
-  },
-  {
-    id: 8,
-    title: 'Vidros e Espelhos',
-    iconSrc: Vidros,
-    alt: 'Vidros e Espelhos',
-    href: `/services/8`,
-    form: 'https://www.google.com.br',
-    description:
-      'Produção e instalação de box para banheiro, guarda corpo, sacadas, janelas de vidro, portas e divisórias ou vidros e espelhos no geral sob medida.',
-    images: [espelho1, espelho2],
-  },
-  {
-    id: 9,
-    title: 'Revestimentos',
-    iconSrc: Revestimentos,
-    alt: 'Revestimentos',
-    href: `/services/9`,
-    form: 'https://www.google.com.br',
-    description:
-      'Fazemos a instalação e assentamento de pisos e revestimentos de todos os portes e nos mais diversos tipos de superfícies: piscinas, fachadas, balcões, paredes, halls, varandas, áreas comuns externas ou internas. Além de revestimentos para comércios, restaurantes e todo tipo de estabelecimento comercial.',
-    images: [pisos1, pisos2],
-  },
+      {
+        id: 6,
+        title: 'Drywall',
+        iconSrc: Drywall,
+        alt: 'Drywall',
+        href: `/services/6`,
+        form: 'https://www.google.com.br',
+        description:
+          'Nossos serviços com gesso vão desde um sistema completo para paredes ou forros até acabamentos, sancas elaboração de móveis, expositores ou placas de gesso 3D.',
+        images: [gesso1, gesso2, gesso3],
+      },
+      {
+        id: 7,
+        title: 'Obra',
+        iconSrc: Obra,
+        alt: 'Obra',
+        href: `/services/7`,
+        form: 'https://www.google.com.br',
+        description:
+          'Temos uma equipe completa e especializada para tirar a sua obra ou reforma do papel.',
+        images: [img1],
+      },
+      {
+        id: 8,
+        title: 'Vidros e Espelhos',
+        iconSrc: Vidros,
+        alt: 'Vidros e Espelhos',
+        href: `/services/8`,
+        form: 'https://www.google.com.br',
+        description:
+          'Produção e instalação de box para banheiro, guarda corpo, sacadas, janelas de vidro, portas e divisórias ou vidros e espelhos no geral sob medida.',
+        images: [espelho1, espelho2],
+      },
+      {
+        id: 9,
+        title: 'Revestimentos',
+        iconSrc: Revestimentos,
+        alt: 'Revestimentos',
+        href: `/services/9`,
+        form: 'https://www.google.com.br',
+        description:
+          'Fazemos a instalação e assentamento de pisos e revestimentos de todos os portes e nos mais diversos tipos de superfícies: piscinas, fachadas, balcões, paredes, halls, varandas, áreas comuns externas ou internas. Além de revestimentos para comércios, restaurantes e todo tipo de estabelecimento comercial.',
+        images: [pisos1, pisos2],
+      },
 
-  {
-    id: 10,
-    title: 'Marmoraria',
-    iconSrc: Marmoraria,
-    alt: 'Marmoraria',
-    href: `/services/10`,
-    form: 'https://www.google.com.br',
-    description:
-      'Trabalhamos com diversas tonalidades de pedras de origem nacional ou importadas que atendem todos os gostos e estilos.',
-    images: [marmoraria1, marmoraria2, marmoraria3],
+      {
+        id: 10,
+        title: 'Marmoraria',
+        iconSrc: Marmoraria,
+        alt: 'Marmoraria',
+        href: `/services/10`,
+        form: 'https://www.google.com.br',
+        description:
+          'Trabalhamos com diversas tonalidades de pedras de origem nacional ou importadas que atendem todos os gostos e estilos.',
+        images: [marmoraria1, marmoraria2, marmoraria3],
+      },
+    ],
   },
 ];

@@ -15,11 +15,12 @@ import {
   NavbarText,
 } from 'reactstrap';
 import Whatsapp from 'react-bootstrap-icons/dist/icons/whatsapp';
-import { servicesItens } from '../../data';
+import { dataBase } from '../../data';
 
 import logo from '../../assets/logo.svg';
 
 const Header = () => {
+  const { services } = dataBase[0];
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -48,7 +49,7 @@ const Header = () => {
                 <DropdownItem href="/services/1">Serviços</DropdownItem>
                 <DropdownItem divider />
 
-                {servicesItens.map((x) => (
+                {services.map((x) => (
                   <DropdownItem href={x.href}>{x.title}</DropdownItem>
                 ))}
               </DropdownMenu>
