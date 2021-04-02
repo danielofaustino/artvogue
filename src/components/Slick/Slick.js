@@ -59,7 +59,7 @@ export default function Slick() {
                 </div>
               </a>
             </div>
-            <a href="x.href" className="destaque_title">
+            <a href={x.href} className="destaque_title">
               {x.title.toUpperCase()}
             </a>
           </div>
