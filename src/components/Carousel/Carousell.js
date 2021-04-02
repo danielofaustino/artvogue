@@ -6,7 +6,7 @@ import gallery3 from '../../assets/gallery/gallery3.jpg';
 
 const items = [
   {
-    src: gallery1,
+    src: gallery3,
     altText: 'Slide 1',
     caption: '',
     header: '',
@@ -20,7 +20,7 @@ const items = [
     key: '2',
   },
   {
-    src: gallery3,
+    src: gallery1,
     altText: 'Slide 3',
     caption: '',
     header: '',
