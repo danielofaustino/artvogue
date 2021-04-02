@@ -103,9 +103,9 @@ export const dataBase = [
 
       {
         id: 4,
-        title: 'Hidraulica',
+        title: 'Hidráulica',
         iconSrc: Hidraulica,
-        alt: 'Hidraulica',
+        alt: 'Hidráulica',
         href: `/services/4`,
         form: 'https://www.google.com.br',
         description:
@@ -137,9 +137,9 @@ export const dataBase = [
       },
       {
         id: 7,
-        title: 'Obra',
+        title: 'Obras',
         iconSrc: Obra,
-        alt: 'Obra',
+        alt: 'Obras',
         href: `/services/7`,
         form: 'https://www.google.com.br',
         description:
