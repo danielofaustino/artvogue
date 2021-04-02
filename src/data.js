@@ -43,7 +43,14 @@ import marmoraria1 from './assets/imgservices/marmoraria-1.jpg';
 import marmoraria2 from './assets/imgservices/marmoraria-2.jpg';
 import marmoraria3 from './assets/imgservices/marmoraria-3.jpg';
 
-import img1 from './assets/gallery/gallery1.jpeg';
+// importing galley images
+
+import gallery1 from './assets/gallery/gallery1.jpg';
+import gallery2 from './assets/gallery/gallery2.jpeg';
+import gallery3 from './assets/gallery/gallery3.jpeg';
+import gallery4 from './assets/gallery/gallery4.jpg';
+import gallery5 from './assets/gallery/gallery5.jpeg';
+import gallery6 from './assets/gallery/gallery6.jpg';
 
 export const dataBase = [
   {
@@ -126,7 +133,7 @@ export const dataBase = [
         form: 'https://www.google.com.br',
         description:
           'Temos uma equipe completa e especializada para tirar a sua obra ou reforma do papel.',
-        images: [img1],
+        images: [gallery1],
       },
       {
         id: 8,
@@ -161,6 +168,50 @@ export const dataBase = [
         description:
           'Trabalhamos com diversas tonalidades de pedras de origem nacional ou importadas que atendem todos os gostos e estilos.',
         images: [marmoraria1, marmoraria2, marmoraria3],
+      },
+    ],
+    gallery: [
+      {
+        src: gallery1,
+        altText: 'Slide 1',
+        caption: '',
+        header: '',
+        key: '1',
+      },
+      {
+        src: gallery2,
+        altText: 'Slide 2',
+        caption: '',
+        header: '',
+        key: '1',
+      },
+      {
+        src: gallery3,
+        altText: 'Slide 3',
+        caption: '',
+        header: '',
+        key: '1',
+      },
+      {
+        src: gallery4,
+        altText: 'Slide 4',
+        caption: '',
+        header: '',
+        key: '1',
+      },
+      {
+        src: gallery5,
+        altText: 'Slide 5',
+        caption: '',
+        header: '',
+        key: '1',
+      },
+      {
+        src: gallery6,
+        altText: 'Slide 6',
+        caption: '',
+        header: '',
+        key: '1',
       },
     ],
   },
