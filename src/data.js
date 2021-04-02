@@ -52,6 +52,18 @@ import gallery4 from './assets/gallery/gallery4.jpg';
 import gallery5 from './assets/gallery/gallery5.jpeg';
 import gallery6 from './assets/gallery/gallery6.jpg';
 
+// importing clients images:
+
+import clients1 from './assets/companies/lovenna.png';
+import clients2 from './assets/companies/jac.png';
+import clients3 from './assets/companies/emacademy.png';
+import clients4 from './assets/companies/jetpizzas.png';
+import clients5 from './assets/companies/quadrilatero.png';
+import clients6 from './assets/companies/leroy.png';
+import clients7 from './assets/companies/bic.png';
+import clients8 from './assets/companies/citroen.png';
+import clients9 from './assets/companies/jaguar.png';
+
 export const dataBase = [
   {
     services: [
@@ -212,6 +224,44 @@ export const dataBase = [
         caption: '',
         header: '',
         key: '1',
+      },
+    ],
+    clients: [
+      {
+        src: clients1,
+        alt: '',
+      },
+      {
+        src: clients2,
+        alt: '',
+      },
+      {
+        src: clients3,
+        alt: '',
+      },
+      {
+        src: clients4,
+        alt: '',
+      },
+      {
+        src: clients5,
+        alt: '',
+      },
+      {
+        src: clients6,
+        alt: '',
+      },
+      {
+        src: clients7,
+        alt: '',
+      },
+      {
+        src: clients8,
+        alt: '',
+      },
+      {
+        src: clients9,
+        alt: '',
       },
     ],
   },

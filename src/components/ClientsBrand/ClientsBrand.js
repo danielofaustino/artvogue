@@ -2,18 +2,11 @@ import { Container } from 'reactstrap';
 
 import React from 'react';
 import Slider from 'react-slick';
-
-import jet from '../../assets/companies/jetpizzas.png';
-import jac from '../../assets/companies/jac.png';
-import leroy from '../../assets/companies/leroy.png';
-import lovenna from '../../assets/companies/lovenna.png';
-import quadrilatero from '../../assets/companies/quadrilatero.png';
-import emacademy from '../../assets/companies/emacademy.png';
-import bic from '../../assets/companies/bic.png';
-import citroen from '../../assets/companies/citroen.png';
-import jaguar from '../../assets/companies/jaguar.png';
+import { dataBase } from '../../data';
 
 export default function ClientsBrand() {
+  const { clients } = dataBase[0];
+
   const settings = {
     dots: false,
     infinite: false,
@@ -53,95 +46,15 @@ export default function ClientsBrand() {
   return (
     <Container className="container d-block my-2" id="clients-brand">
       <Slider {...settings}>
-        <div>
-          <div className="brand-item">
-            <a href="/" className="destaque">
+        {clients.map((x) => (
+          <div>
+            <div className="brand-item">
               <div className="img-container">
-                <img src={lovenna} alt="loveena" className="mx-auto d-block" />
+                <img src={x.src} alt={x.alt} className="mx-auto d-block" />
               </div>
-            </a>
+            </div>
           </div>
-        </div>
-        <div>
-          <div className="brand-item">
-            <a href="/" className="destaque">
-              <div className="img-container">
-                <img src={jac} alt="jac" className="mx-auto d-block" />
-              </div>
-            </a>
-          </div>
-        </div>
-        <div>
-          <div className="brand-item">
-            <a href="/" className="destaque">
-              <div className="img-container">
-                <img
-                  src={emacademy}
-                  alt="emacademy"
-                  className="mx-auto d-block"
-                />
-              </div>
-            </a>
-          </div>
-        </div>
-        <div>
-          <div className="brand-item">
-            <a href="/" className="destaque">
-              <div className="img-container">
-                <img src={jet} alt="jet-pizzas" className="mx-auto d-block" />
-              </div>
-            </a>
-          </div>
-        </div>
-        <div>
-          <div className="brand-item">
-            <a href="/" className="destaque">
-              <div className="img-container">
-                <img
-                  src={quadrilatero}
-                  alt="quadrilatero"
-                  className="mx-auto d-block"
-                />
-              </div>
-            </a>
-          </div>
-        </div>
-        <div>
-          <div className="brand-item">
-            <a href="/" className="destaque">
-              <div className="img-container">
-                <img src={leroy} alt="leroy" className="mx-auto d-block" />
-              </div>
-            </a>
-          </div>
-        </div>
-        <div>
-          <div className="brand-item">
-            <a href="/" className="destaque">
-              <div className="img-container">
-                <img src={bic} alt="bic" className="mx-auto d-block" />
-              </div>
-            </a>
-          </div>
-        </div>
-        <div>
-          <div className="brand-item">
-            <a href="/" className="destaque">
-              <div className="img-container">
-                <img src={citroen} alt="citroen" className="mx-auto d-block" />
-              </div>
-            </a>
-          </div>
-        </div>
-        <div>
-          <div className="brand-item">
-            <a href="/" className="destaque">
-              <div className="img-container">
-                <img src={jaguar} alt="eletica" className="mx-auto d-block" />
-              </div>
-            </a>
-          </div>
-        </div>
+        ))}
       </Slider>
     </Container>
   );
