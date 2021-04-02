@@ -49,8 +49,7 @@ import gallery1 from './assets/gallery/gallery1.jpg';
 import gallery2 from './assets/gallery/gallery2.jpeg';
 import gallery3 from './assets/gallery/gallery3.jpeg';
 import gallery4 from './assets/gallery/gallery4.jpg';
-import gallery5 from './assets/gallery/gallery5.jpeg';
-import gallery6 from './assets/gallery/gallery6.jpg';
+import gallery5 from './assets/gallery/gallery5.jpg';
 
 // importing clients images:
 
@@ -195,73 +194,75 @@ export const dataBase = [
         altText: 'Slide 2',
         caption: '',
         header: '',
-        key: '1',
+        key: '2',
       },
       {
         src: gallery3,
         altText: 'Slide 3',
         caption: '',
         header: '',
-        key: '1',
+        key: '3',
       },
       {
         src: gallery4,
         altText: 'Slide 4',
         caption: '',
         header: '',
-        key: '1',
+        key: '4',
       },
       {
         src: gallery5,
         altText: 'Slide 5',
         caption: '',
         header: '',
-        key: '1',
-      },
-      {
-        src: gallery6,
-        altText: 'Slide 6',
-        caption: '',
-        header: '',
-        key: '1',
+        key: '5',
       },
     ],
     clients: [
       {
         src: clients1,
         alt: '',
+        key: '1',
       },
       {
         src: clients2,
         alt: '',
+        key: '2',
       },
       {
         src: clients3,
         alt: '',
+        key: '3',
       },
       {
         src: clients4,
         alt: '',
+        key: '4',
       },
       {
         src: clients5,
         alt: '',
+        key: '5',
       },
       {
         src: clients6,
         alt: '',
+        key: '6',
       },
       {
         src: clients7,
         alt: '',
+        key: '7',
       },
       {
         src: clients8,
         alt: '',
+        key: '8',
       },
       {
         src: clients9,
         alt: '',
+        key: '9',
       },
     ],
   },
