@@ -105,8 +105,8 @@ export default function ServicesBox() {
                 <FormGroup check>
                   <Label check>
                     <Input
-                      type="radio"
-                      name="entry.946292988"
+                      type="checkbox"
+                      name="entry.801317577"
                       value={x.title}
                     />{' '}
                     {x.title}
@@ -130,7 +130,12 @@ export default function ServicesBox() {
 
             <Input type="hidden" name="pageHistory" value="0" />
 
-            <Input class="btn btn-primary" type="submit" value="Enviar" />
+            <Input
+              class="btn btn-primary"
+              type="submit"
+              value="Enviar"
+              onClick={toggle}
+            />
           </Form>
         </ModalBody>
         <ModalFooter>

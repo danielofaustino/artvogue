@@ -80,7 +80,7 @@ export default function Quotation() {
                   <FormGroup check>
                     <Label check>
                       <Input
-                        type="radio"
+                        type="checkbox"
                         name="entry.946292988"
                         value="São Paulo - Norte"
                       />{' '}
@@ -90,7 +90,7 @@ export default function Quotation() {
                   <FormGroup check>
                     <Label check>
                       <Input
-                        type="radio"
+                        type="checkbox"
                         name="entry.946292988"
                         value="São Paulo - Sudeste"
                       />{' '}
@@ -100,7 +100,7 @@ export default function Quotation() {
                   <FormGroup check>
                     <Label check>
                       <Input
-                        type="radio"
+                        type="checkbox"
                         name="entry.946292988"
                         value="São Paulo - Sudoeste"
                       />{' '}
@@ -110,7 +110,7 @@ export default function Quotation() {
                   <FormGroup check>
                     <Label check>
                       <Input
-                        type="radio"
+                        type="checkbox"
                         name="entry.946292988"
                         value="São Paulo - Oeste"
                       />{' '}
@@ -132,7 +132,12 @@ export default function Quotation() {
 
                 <Input type="hidden" name="pageHistory" value="0" />
 
-                <Input class="btn btn-primary" type="submit" value="Enviar" />
+                <Input
+                  class="btn btn-primary"
+                  type="submit"
+                  value="Enviar"
+                  onClick={toggle}
+                />
               </Form>
             </ModalBody>
             <ModalFooter>
