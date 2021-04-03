@@ -42,7 +42,7 @@ export default function Quotation() {
               <Form
                 className="artvogue-forms"
                 action="https://docs.google.com/forms/d/e/1FAIpQLSf5OxaWHAJ5mhYXpMUWrUcbitDa_-RCYdAWllh7N7KfnN9TUQ/formResponse"
-                target="_self"
+                target="_blank"
                 id="bootstrapForm"
                 method="POST"
               >
