@@ -74,7 +74,7 @@ export const dataBase = [
         href: `/services/1`,
         form: 'https://www.google.com.br',
         description:
-          'Temos uma equipe especializada em instalação, conserto, manutenção preventiva e corretiva de ar condicionado nos segmentos do ramo industrial e residencial.',
+          'Temos uma equipe especializada em instalação, conserto, manutenção preventiva e corretiva de ar-condicionado nos segmentos do ramo industrial e residencial.',
         images: [climatizacao1, climatizacao2, climatizacao3],
       },
 
@@ -86,7 +86,7 @@ export const dataBase = [
         href: `/services/2`,
         form: 'https://www.google.com.br',
         description:
-          'Serviços de instalação, manutenção e reparo especializado em Elétrica Residencial, Comercial e Predial.',
+          'Serviços especializados de instalação, manutenção e reparo na Elétrica Residencial, Comercial e Predial.',
         images: [eletrica1, eletrica2, eletrica3],
       },
       {
@@ -97,7 +97,7 @@ export const dataBase = [
         href: `/services/3`,
         form: 'https://www.google.com.br',
         description:
-          'Fazemos o planejamento e execução da iluminação para valorizar a decoração e a arquitetura do seu projeto. Fazendo com que cada ambiente transmita conforto e harmonia.',
+          'Fazemos o planejamento e execução de iluminação, para valorizar a decoração e a arquitetura do seu projeto. Fazendo com que cada ambiente transmita conforto e harmonia.',
         images: [iluminacao1, iluminacao2],
       },
 
@@ -109,7 +109,7 @@ export const dataBase = [
         href: `/services/4`,
         form: 'https://www.google.com.br',
         description:
-          'Serviços para o sistema de abastecimento, distribuição e escoamento de águal. Dentre as instalações estão: a de água fria e quente, as instalações de esgoto sanitário, de águas pluviais e os sistemas de combate a incêndio.',
+          'Serviços para o sistema de abastecimento, distribuição e escoamento de água fria e quente; instalações de esgoto sanitário, águas pluviais e sistemas de combate a incêndio.',
         images: [hidraulica1],
       },
       {
@@ -120,7 +120,7 @@ export const dataBase = [
         href: `/services/5`,
         form: 'https://www.google.com.br',
         description:
-          'Pintura de alto padrão, com tecnologia e que segue as mais diversas tendencias do mercado para pintura predial, comercial e residencial.',
+          'Pintura de alto padrão que segue as mais diversas tendências do mercado para pintura predial, comercial e residencial.',
         images: [pintura1, pintura2],
       },
 
@@ -132,7 +132,7 @@ export const dataBase = [
         href: `/services/6`,
         form: 'https://www.google.com.br',
         description:
-          'Nossos serviços com gesso vão desde um sistema completo para paredes ou forros até acabamentos, sancas elaboração de móveis, expositores ou placas de gesso 3D.',
+          'Nossos serviços com gesso vão desde a construção de paredes e forros até instalação de sancas, elaboração de móveis, expositores ou placas de gesso 3D.',
         images: [gesso1, gesso2, gesso3],
       },
       {
@@ -143,7 +143,7 @@ export const dataBase = [
         href: `/services/7`,
         form: 'https://www.google.com.br',
         description:
-          'Temos uma equipe completa e especializada para tirar a sua obra ou reforma do papel.',
+          'Temos uma equipe completa e especializada para tirar a sua reforma do papel.',
         images: [gallery1],
       },
       {
@@ -165,7 +165,8 @@ export const dataBase = [
         href: `/services/9`,
         form: 'https://www.google.com.br',
         description:
-          'Fazemos a instalação e assentamento de pisos e revestimentos de todos os portes e nos mais diversos tipos de superfícies: piscinas, fachadas, balcões, paredes, halls, varandas, áreas comuns externas ou internas. Além de revestimentos para comércios, restaurantes e todo tipo de estabelecimento comercial.',
+          'Instalação de pisos e revestimentos em diversos tipos de superfícies: piscinas, fachadas, balcões, paredes, halls, varandas, áreas comuns externas ou internas. Além de revestimentos para comércios, restaurantes e estabelecimentos comerciais.',
+
         images: [pisos1, pisos2],
       },
 
@@ -177,7 +178,7 @@ export const dataBase = [
         href: `/services/10`,
         form: 'https://www.google.com.br',
         description:
-          'Trabalhamos com diversas tonalidades de pedras de origem nacional ou importadas que atendem todos os gostos e estilos.',
+          'Trabalhamos com uma grande diversidade e tonalidades de pedras nacionais e importadas.',
         images: [marmoraria1, marmoraria2, marmoraria3],
       },
     ],
