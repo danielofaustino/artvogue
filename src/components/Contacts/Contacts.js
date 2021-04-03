@@ -10,7 +10,7 @@ export default function Contacts() {
 
           <Form
             action="https://docs.google.com/forms/d/e/1FAIpQLSfSeXLfs-EyXolAsr9_tcMws5GS-p7tyXXru4RC9kuuC1asXQ/formResponse"
-            target="_self"
+            target="_blank"
             id="bootstrapForm"
             method="POST"
           >
