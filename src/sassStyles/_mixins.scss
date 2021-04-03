@@ -120,4 +120,17 @@
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
+  .content-box {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: $margin;
+    margin-top: $margin;
+  }
+  .brand-item img {
+    height: 80px;
+  }
 }
