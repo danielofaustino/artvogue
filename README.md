@@ -1,11 +1,13 @@
-
-
 ![Logo](src/assets/logo.svg)
 
 # Art Vogue Reformas - Oficial Web Site
+
 <p align="center">www.artvoguereformas.com.br</p>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7d041491-1d3d-41c5-ac2a-0df24504b703/deploy-status)](https://app.netlify.com/sites/artvoguereformas/deploys)
+
 ## Description
+
 <p align="center">A responsive web design that will automatically adjust for different screen sizes and viewports. This website aims to show the services provided by Art Vogue and receive service calls through their forms, whatsapp and phone.</p>
 
 ### Features
@@ -18,7 +20,6 @@
 
 The following tools were used in the construction of the project:
 
-
 - [React](https://pt-br.reactjs.org/)
 - [React-Router](https://reactrouter.com/web/guides/quick-start)
 - [React-Strap](https://reactstrap.github.io/)
@@ -28,6 +29,7 @@ The following tools were used in the construction of the project:
 - [React-Bootstrap-Icons](https://www.npmjs.com/package/react-bootstrap-icons)
 
 ### Author
+
 ---
 
 <a href="https://github.com/danielofaustino/danielofaustino">
@@ -35,11 +37,10 @@ The following tools were used in the construction of the project:
  <br />
  <sub><b>Daniel Faustino</b></sub></a> <a href="https://www.linkedin.com/in/danielofaustino" title="Linkedin">🚀</a>
 
+Made by Daniel Faustino 👋🏽 Get in touch!
 
-Feito por Daniel Faustino 👋🏽 Entre em contato!
-
-[![Twitter Badge](https://img.shields.io/badge/-@danielofaustino-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/danielofaustino)](https://twitter.com/danielofaustino) [![Linkedin Badge](https://img.shields.io/badge/-Daniel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/danielofaustino/)](https://www.linkedin.com/in/danielofaustino/) 
-[![Gmail Badge](https://img.shields.io/badge/--danieloliveirafaustino@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:danieloliveirafaustino@gmail.com)](mailto:danieloliveirafaustino@gmail.com)
+[![Twitter Badge](https://img.shields.io/badge/-@danielofaustino-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/danielofaustino)](https://twitter.com/danielofaustino) [![Linkedin Badge](https://img.shields.io/badge/-Daniel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/danielofaustino/)](https://www.linkedin.com/in/danielofaustino/)
+[![Gmail Badge](https://img.shields.io/badge/-danieloliveirafaustino@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:danieloliveirafaustino@gmail.com)](mailto:danieloliveirafaustino@gmail.com)
 
 # Getting Started with Create React App
 
