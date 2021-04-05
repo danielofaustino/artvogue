@@ -1,7 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import React from 'react';
+import { createBrowserHistory } from 'history';
+import React, { useEffect } from 'react';
 import CookieConsent from 'react-cookie-consent';
+import ReactGA from 'react-ga';
 import Home from './Pages/Home';
 import Contact from './Pages/Contact';
 
@@ -9,6 +11,13 @@ import Services from './Pages/Services';
 import Aboutus from './Pages/Aboutus';
 
 function App() {
+  const history = createBrowserHistory();
+  useEffect(() => {
+    ReactGA.initialize('G-T8620T79YE');
+    history.listen((location) => {
+      ReactGA.pageview(location.pathname);
+    });
+  });
   return (
     <div className="App container-flex">
       <Router>
