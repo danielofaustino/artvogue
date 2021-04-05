@@ -1,5 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  useLocation,
+} from 'react-router-dom';
 
 import React, { useEffect } from 'react';
 import CookieConsent from 'react-cookie-consent';
@@ -10,11 +15,20 @@ import Contact from './Pages/Contact';
 import Services from './Pages/Services';
 import Aboutus from './Pages/Aboutus';
 
-function App() {
+function usePageViews() {
+  const location = useLocation();
   useEffect(() => {
-    ReactGA.initialize(`${process.env.REACT_APP_GA_TRACKING_CODE}`);
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  });
+    if (window.GA_INITIALIZED) {
+      ReactGA.initialize(`${process.env.REACT_APP_GA_TRACKING_CODE}`);
+      window.GA_INITIALIZED = true;
+    }
+    React.GA.set({ page: location.pathname });
+    React.pageview(location.pathname);
+  }, [location]);
+}
+
+function App() {
+  usePageViews();
   return (
     <div className="App container-flex">
       <Router>
