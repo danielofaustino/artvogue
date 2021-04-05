@@ -1,3 +1,46 @@
+
+
+![Logo](https://github.com/danielofaustino/artvogue/tree/master/src/assets/logo.svg)
+
+# Art Vogue Reformas - Oficial Web Site
+<p align="center">www.artvoguereformas.com.br</p>
+
+## Description
+<p align="center">A responsive web design that will automatically adjust for different screen sizes and viewports. This website aims to show the services provided by Art Vogue and receive service calls through their forms, whatsapp and phone.</p>
+
+### Features
+
+- [x] Partners Form
+- [x] Services Form
+- [ ] Cookies alert - Building
+
+### 🛠 Tecnologies
+
+The following tools were used in the construction of the project:
+
+
+- [React](https://pt-br.reactjs.org/)
+- [React-Router](https://reactrouter.com/web/guides/quick-start)
+- [React-Strap](https://reactstrap.github.io/)
+- [Saas](https://sass-lang.com/)
+- [React-CountUp](https://www.npmjs.com/package/react-countup)
+- [React-Slick](https://react-slick.neostack.com/)
+- [React-Bootstrap-Icons](https://www.npmjs.com/package/react-bootstrap-icons)
+
+### Autor
+---
+
+<a href="https://blog.rocketseat.com.br/author/thiago/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/55099688?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Daniel Faustino</b></sub></a> <a href="https://www.linkedin.com/in/danielofaustino" title="Linkedin">🚀</a>
+
+
+Feito por Daniel Faustino 👋🏽 Entre em contato!
+
+[![Twitter Badge](https://img.shields.io/badge/-@tgmarinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/danielofaustino)](https://twitter.com/danielofaustino) [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/danielofaustino/)](https://www.linkedin.com/in/danielofaustino/) 
+[![Gmail Badge](https://img.shields.io/badge/--@tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:danieloliveirafaustino@gmail.com)](mailto:danieloliveirafaustino@gmail.com)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
