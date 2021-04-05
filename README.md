@@ -38,7 +38,7 @@ The following tools were used in the construction of the project:
 
 Feito por Daniel Faustino 👋🏽 Entre em contato!
 
-[![Twitter Badge](https://img.shields.io/badge/-@danielofaustino-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/danielofaustino)](https://twitter.com/danielofaustino) [![Linkedin Badge](https://img.shields.io/badge/-Daniel Faustino-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/danielofaustino/)](https://www.linkedin.com/in/danielofaustino/) 
+[![Twitter Badge](https://img.shields.io/badge/-@danielofaustino-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/danielofaustino)](https://twitter.com/danielofaustino) [![Linkedin Badge](https://img.shields.io/badge/-Daniel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/danielofaustino/)](https://www.linkedin.com/in/danielofaustino/) 
 [![Gmail Badge](https://img.shields.io/badge/--danieloliveirafaustino@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:danieloliveirafaustino@gmail.com)](mailto:danieloliveirafaustino@gmail.com)
 
 # Getting Started with Create React App
