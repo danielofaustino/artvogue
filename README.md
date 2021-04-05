@@ -27,7 +27,7 @@ The following tools were used in the construction of the project:
 - [React-Slick](https://react-slick.neostack.com/)
 - [React-Bootstrap-Icons](https://www.npmjs.com/package/react-bootstrap-icons)
 
-### Autor
+### Author
 ---
 
 <a href="https://github.com/danielofaustino/danielofaustino">
