@@ -67,7 +67,7 @@ export default function ServicesBox() {
           <Form
             className="artvogue-forms"
             action="https://docs.google.com/forms/d/e/1FAIpQLSdkPgmpQG_ylq5bGCCfZUWHqsFI8J7CGAtMGIC_7DdNczGpMw/formResponse"
-            target="_self"
+            target="_blank"
             id="bootstrapForm"
             method="POST"
           >
@@ -105,8 +105,8 @@ export default function ServicesBox() {
                 <FormGroup check>
                   <Label check>
                     <Input
-                      type="radio"
-                      name="entry.946292988"
+                      type="checkbox"
+                      name="entry.801317577"
                       value={x.title}
                     />{' '}
                     {x.title}
@@ -130,7 +130,12 @@ export default function ServicesBox() {
 
             <Input type="hidden" name="pageHistory" value="0" />
 
-            <Input class="btn btn-primary" type="submit" value="Enviar" />
+            <Input
+              class="btn btn-primary"
+              type="submit"
+              value="Enviar"
+              onClick={toggle}
+            />
           </Form>
         </ModalBody>
         <ModalFooter>
