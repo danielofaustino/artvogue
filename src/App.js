@@ -10,15 +10,11 @@ import Contact from './Pages/Contact';
 import Services from './Pages/Services';
 import Aboutus from './Pages/Aboutus';
 
-function usePageViews() {
+function App() {
   useEffect(() => {
     ReactGA.initialize(`${process.env.REACT_APP_GA_TRACKING_CODE}`);
     ReactGA.pageview(window.location.pathname + window.location.search);
   });
-}
-
-function App() {
-  usePageViews();
   return (
     <div className="App container-flex">
       <Router>
