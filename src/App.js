@@ -24,7 +24,7 @@ function App() {
         buttonText="ACEITAR"
         enableDeclineButton
         cookieName="myAwesomeCookieName2"
-        style={{ background: '#FFF', color: '#244479' }}
+        style={{ background: '#FFF', color: '#244479', textAlign: 'center' }}
         buttonStyle={{
           background: '#3968b3',
           color: '#FFF',
