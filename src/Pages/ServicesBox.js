@@ -102,7 +102,7 @@ export default function ServicesBox() {
               <Label for="1795896370">Serviço para Cotação:</Label>
 
               {services.map((x) => (
-                <FormGroup check>
+                <FormGroup key={x.id} check>
                   <Label check>
                     <Input
                       type="checkbox"

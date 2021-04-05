@@ -50,7 +50,9 @@ const Header = () => {
                 <DropdownItem divider />
 
                 {services.map((x) => (
-                  <DropdownItem href={x.href}>{x.title}</DropdownItem>
+                  <DropdownItem key={x.id} href={x.href}>
+                    {x.title}
+                  </DropdownItem>
                 ))}
               </DropdownMenu>
             </UncontrolledDropdown>
