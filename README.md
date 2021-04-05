@@ -1,6 +1,6 @@
 
 
-![Logo](https://github.com/danielofaustino/artvogue/tree/master/src/assets/logo.svg)
+![Logo](src/assets/logo.svg)
 
 # Art Vogue Reformas - Oficial Web Site
 <p align="center">www.artvoguereformas.com.br</p>
@@ -38,8 +38,8 @@ The following tools were used in the construction of the project:
 
 Feito por Daniel Faustino 👋🏽 Entre em contato!
 
-[![Twitter Badge](https://img.shields.io/badge/-@tgmarinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/danielofaustino)](https://twitter.com/danielofaustino) [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/danielofaustino/)](https://www.linkedin.com/in/danielofaustino/) 
-[![Gmail Badge](https://img.shields.io/badge/--@tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:danieloliveirafaustino@gmail.com)](mailto:danieloliveirafaustino@gmail.com)
+[![Twitter Badge](https://img.shields.io/badge/-@danielofaustino-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/danielofaustino)](https://twitter.com/danielofaustino) [![Linkedin Badge](https://img.shields.io/badge/-Daniel Faustino-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/danielofaustino/)](https://www.linkedin.com/in/danielofaustino/) 
+[![Gmail Badge](https://img.shields.io/badge/--danieloliveirafaustino@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:danieloliveirafaustino@gmail.com)](mailto:danieloliveirafaustino@gmail.com)
 
 # Getting Started with Create React App
 
