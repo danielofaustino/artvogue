@@ -30,7 +30,7 @@ The following tools were used in the construction of the project:
 ### Autor
 ---
 
-<a href="https://blog.rocketseat.com.br/author/thiago/">
+<a href="https://github.com/danielofaustino/danielofaustino">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/55099688?v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Daniel Faustino</b></sub></a> <a href="https://www.linkedin.com/in/danielofaustino" title="Linkedin">🚀</a>
