@@ -125,6 +125,14 @@ export default function ServicesBox() {
                 required
               />
             </FormGroup>
+            <FormGroup check>
+              <Label check>
+                <Input type="checkbox" id="privacy-policy" /> Concordo com a{' '}
+                <a href="/politica-de-privadade" target="_blank">
+                  Politica de Privacidade
+                </a>
+              </Label>
+            </FormGroup>
             <Input type="hidden" name="fvv" value="1" />
             <Input type="hidden" name="fbzx" value="-4638860087270209793" />
 

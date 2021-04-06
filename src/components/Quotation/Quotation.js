@@ -127,6 +127,14 @@ export default function Quotation() {
                     class="form-control"
                   />
                 </FormGroup>
+                <FormGroup check>
+                  <Label check>
+                    <Input type="checkbox" id="privacy-policy" /> Concordo com a{' '}
+                    <a href="/politica-de-privadade" target="_blank">
+                      Politica de Privacidade
+                    </a>
+                  </Label>
+                </FormGroup>
                 <input type="hidden" name="fvv" value="1" />
                 <input type="hidden" name="fbzx" value="1277207772728743201" />
 
