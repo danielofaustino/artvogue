@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import React from 'react';
+import React, { useState } from 'react';
 import CookieConsent from 'react-cookie-consent';
-
+import ReactGA from 'react-ga';
 import Home from './Pages/Home';
 import Contact from './Pages/Contact';
 
@@ -11,7 +11,19 @@ import Services from './Pages/Services';
 import Aboutus from './Pages/Aboutus';
 import Privacy from './Pages/Privacy';
 
+const PageView = () => {
+  const location = window.location.pathname;
+  ReactGA.initialize('G-F2V416RW0N');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+  // eslint-disable-next-line
+  console.log(location);
+};
+
 function App() {
+  useState(() => {
+    PageView();
+  });
+
   return (
     <div className="App container-flex">
       <Router>
