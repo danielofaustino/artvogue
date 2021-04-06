@@ -1,8 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import CookieConsent from 'react-cookie-consent';
+import ReactGa from 'react-ga';
 
 import Home from './Pages/Home';
 import Contact from './Pages/Contact';
@@ -12,6 +13,10 @@ import Aboutus from './Pages/Aboutus';
 import Privacy from './Pages/Privacy';
 
 function App() {
+  useEffect(() => {
+    ReactGa.initialize('G-F2V416RW0N');
+    ReactGa.pageview(window.location.pathname + window.location.search); // Record a pageview for the given page
+  }, []);
   return (
     <div className="App container-flex">
       <Router>
