@@ -56,7 +56,7 @@ export default function Slick() {
     <Container className="container my-5" id="services">
       <Slider {...settings}>
         {services.map((x) => (
-          <div key={x.id}>
+          <div key={`Slider-${x.id}`}>
             <div className="services-item">
               <a href={x.href} className="destaque">
                 <div className="img-container">
