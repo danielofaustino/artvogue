@@ -1,20 +1,17 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import CookieConsent from 'react-cookie-consent';
-import ReactGA from 'react-ga';
+
 import Home from './Pages/Home';
 import Contact from './Pages/Contact';
 
 import Services from './Pages/Services';
 import Aboutus from './Pages/Aboutus';
+import Privacy from './Pages/Privacy';
 
 function App() {
-  useEffect(() => {
-    ReactGA.initialize(`${process.env.REACT_APP_GA_TRACKING_CODE}`);
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  });
   return (
     <div className="App container-flex">
       <Router>
@@ -23,10 +20,12 @@ function App() {
           <Route path="/about" exact component={Aboutus} />
           <Route path="/services/:id" exact component={Services} />
           <Route path="/contatos" exact component={Contact} />
+          <Route Path="/politica-de-privacidade" exact component={Privacy} />
         </Switch>
       </Router>
       <CookieConsent
         location="bottom"
+        containerClasses="cookie"
         buttonText="ACEITAR"
         enableDeclineButton
         cookieName="myAwesomeCookieName2"
@@ -46,8 +45,9 @@ function App() {
         declineButtonText="NÃO ACEITAR"
         expires={150}
       >
-        Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua
-        experiência em nosso site.
+        Nós usamos cookies e outras tecnologias para melhorar a sua experiência
+        em nosso site.Ao aceitar, você concorda com nossa{' '}
+        <a href="/politica-de-privacidade">Política de Privacidade</a>.
       </CookieConsent>
     </div>
   );

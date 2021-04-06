@@ -38,6 +38,9 @@
 //Contacts Styles
 @import '../components/Contacts/Contacts.scss';
 
+//Privacy Policy Styles
+@import '../components/PrivacyPolicy/PrivacyPocilyl.scss';
+
 body {
   // to fix content hidden after config navbar as fixed
   padding-top: 8rem;
@@ -67,3 +70,11 @@ body {
   color: $secondary;
 }
 
+#root > div > div.cookie > div:nth-child(1) > a {
+  color: $textLightColor;
+  font-weight: 500;
+}
+
+#root > div > div.cookie > div:nth-child(1) > a:hover {
+  color: $orangeColor;
+}

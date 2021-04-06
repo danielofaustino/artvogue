@@ -116,6 +116,9 @@
   .brand-item img {
     height: 80px;
   }
+  #privacy {
+    margin: 0 10px 0 10px;
+  }
 }
 
 // Large devices (desktops, less than 1200px)
@@ -132,5 +135,8 @@
   }
   .brand-item img {
     height: 80px;
+  }
+  #privacy {
+    margin: 0 10px 0 10px;
   }
 }
