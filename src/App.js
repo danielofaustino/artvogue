@@ -4,12 +4,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import CookieConsent from 'react-cookie-consent';
 
-import Home from './Pages/Home';
-import Contact from './Pages/Contact';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
 
-import Services from './Pages/Services';
-import Aboutus from './Pages/Aboutus';
-import Privacy from './Pages/Privacy';
+import Services from './pages/Services';
+import Aboutus from './pages/Aboutus';
+import Privacy from './pages/Privacy';
 
 function App() {
   useEffect(() => {

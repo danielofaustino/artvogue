@@ -65,9 +65,8 @@ const Header = () => {
             target="_blank"
             rel="noreferrer"
           >
+            <NavbarText className="mr-2 ">11 98167-9358</NavbarText>
             <Whatsapp width="2em" height="2em" fill="#067c38" />
-
-            <NavbarText className="pl-3 ">11 98167-9358</NavbarText>
           </a>
         </Collapse>
       </Navbar>
