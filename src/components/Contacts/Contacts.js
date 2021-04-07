@@ -58,7 +58,7 @@ export default function Contacts() {
 
               <Input type="hidden" name="pageHistory" value="0" />
               <FormGroup check>
-                <Label check>
+                <Label check className="privacy__term">
                   <Input
                     type="checkbox"
                     id="privacy-policy"
@@ -66,8 +66,8 @@ export default function Contacts() {
                   />{' '}
                   Concordo com a{' '}
                   <a
+                    className="privacy__term"
                     href="/politica-de-privadade"
-                    className="contact__policy"
                     target="_blank"
                   >
                     Politica de Privacidade
