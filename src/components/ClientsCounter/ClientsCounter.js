@@ -14,7 +14,7 @@ export default function ClientsCounter() {
 
           <div className="counter__text">
             DE{' '}
-            <b id="counter__number">
+            <b className="counter__count">
               <CountUp delay={2} duration={5} end={1556} />
             </b>{' '}
             REFORMAS CONCLUIDAS
