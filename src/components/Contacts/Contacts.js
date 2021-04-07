@@ -66,7 +66,7 @@ export default function Contacts() {
                   />{' '}
                   Concordo com a{' '}
                   <a
-                    className="privacy__term"
+                    className="privacy__policy"
                     href="/politica-de-privadade"
                     target="_blank"
                   >
