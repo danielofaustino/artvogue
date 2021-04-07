@@ -45,7 +45,7 @@ export default function Quotation() {
             <p>
               <Button
                 className="quotation__button"
-                variant="primary"
+                variant="secondary"
                 onClick={toggle}
               >
                 Cadastro - Parceiros
