@@ -1,6 +1,6 @@
 @import '../../sassStyles/variables';
 
-#contact {
+.contact__layout {
   -webkit-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
   -moz-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
   box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
@@ -8,37 +8,32 @@
   margin: 0px 64px 32px 64px;
   color: $textLightColor;
   padding: 48px 70px 96px 70px;
-
   border-radius: $border-radius;
 }
 
-#contact img {
+.contact__title {
   padding-bottom: 16px;
 }
 
-#contact h1 {
-  padding-bottom: 16px;
-}
-
-#bootstrapForm > input:nth-child(7) {
+.contact__submit {
   border-color: $secondary;
   background-color: $secondary;
   color: white;
-  align-content: center;
 }
 
-#contact input {
+.contact__input {
   height: 3rem;
   margin-bottom: 2rem;
   border-color: $orangeColor;
   color: $secondary;
 }
 
-#contact textarea {
+.contact__textarea {
   height: 6rem;
   border-color: $orangeColor;
+  margin-bottom: 2rem;
 }
 
-#contact textarea {
-  margin-bottom: 2rem;
+.contact__policy {
+  font-weight: 500;
 }

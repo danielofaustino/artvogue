@@ -29,6 +29,14 @@ export default function ServicesBox() {
   const toggle = () => setModal(!modal);
 
   const [items, setItems] = useState([]);
+  const [agree, setAgree] = useState(false);
+
+  const checkboxHandler = () => {
+    // if agree === true, it will be set to false
+    // if agree === false, it will be set to true
+    setAgree(!agree);
+    // Don't miss the exclamation mark
+  };
 
   function handleService(x) {
     setItems(x);
@@ -127,7 +135,12 @@ export default function ServicesBox() {
             </FormGroup>
             <FormGroup check>
               <Label check>
-                <Input type="checkbox" id="privacy-policy" /> Concordo com a{' '}
+                <Input
+                  type="checkbox"
+                  id="privacy-policy"
+                  onChange={checkboxHandler}
+                />{' '}
+                Concordo com a{' '}
                 <a href="/politica-de-privadade" target="_blank">
                   Politica de Privacidade
                 </a>
@@ -143,6 +156,7 @@ export default function ServicesBox() {
               type="submit"
               value="Enviar"
               onClick={toggle}
+              disabled={!agree}
             />
           </Form>
         </ModalBody>

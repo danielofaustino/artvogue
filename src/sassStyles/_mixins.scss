@@ -81,7 +81,7 @@
     padding-bottom: 16px;
   }
 
-  #contact {
+  .contact__layout {
     -webkit-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
     -moz-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
     box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
@@ -96,21 +96,21 @@
     padding-bottom: 16px;
   }
 
-  #contact h1 {
+  .contact__title {
     padding-bottom: 16px;
   }
 
-  #bootstrapForm > input:nth-child(7) {
+  .contact__submit {
     background-color: $secondaryColor;
     color: white;
     align-content: center;
   }
 
-  #contact input {
+  .contact__input {
     margin-bottom: 2rem;
   }
 
-  #contact textarea {
+  .contact__textarea {
     margin-bottom: 2rem;
   }
   .brand-item img {

@@ -20,6 +20,14 @@ import logo from '../../assets/logo.svg';
 export default function Quotation() {
   const [modal, setModal] = useState(false);
 
+  const [agree, setAgree] = useState(false);
+  const checkboxHandler = () => {
+    // if agree === true, it will be set to false
+    // if agree === false, it will be set to true
+    setAgree(!agree);
+    // Don't miss the exclamation mark
+  };
+
   const toggle = () => setModal(!modal);
   return (
     <Container className="mt-5">
@@ -129,7 +137,12 @@ export default function Quotation() {
                 </FormGroup>
                 <FormGroup check>
                   <Label check>
-                    <Input type="checkbox" id="privacy-policy" /> Concordo com a{' '}
+                    <Input
+                      type="checkbox"
+                      id="privacy-policy"
+                      onChange={checkboxHandler}
+                    />{' '}
+                    Concordo com a{' '}
                     <a href="/politica-de-privadade" target="_blank">
                       Politica de Privacidade
                     </a>
@@ -145,6 +158,7 @@ export default function Quotation() {
                   type="submit"
                   value="Enviar"
                   onClick={toggle}
+                  disabled={!agree}
                 />
               </Form>
             </ModalBody>
