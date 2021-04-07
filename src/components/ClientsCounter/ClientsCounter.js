@@ -5,16 +5,16 @@ import Plus from 'react-bootstrap-icons/dist/icons/plus';
 
 export default function ClientsCounter() {
   return (
-    <Container id="clients-counter" className="mt-2 mb-5">
+    <Container className="counter mt-2 mb-5">
       <Row>
-        <Col className="counter">
-          <div className="icon">
+        <Col className="counter__number">
+          <div className="counter__icon">
             <Plus color="#fe914e" size={85} />
           </div>
 
-          <div className="text">
+          <div className="counter__text">
             DE{' '}
-            <b id="clientes-counter">
+            <b id="counter__number">
               <CountUp delay={2} duration={5} end={1556} />
             </b>{' '}
             REFORMAS CONCLUIDAS

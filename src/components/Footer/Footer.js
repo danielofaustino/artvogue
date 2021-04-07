@@ -6,7 +6,7 @@ import Inbox from 'react-bootstrap-icons/dist/icons/inbox';
 
 export default function Footer() {
   return (
-    <Container id="footer" className="mt-3 mb-5">
+    <Container className="footer mt-3 mb-5">
       <Row>
         <Col lg={3}>
           <p>www.artvoguereformas.com.br</p>

@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'reactstrap';
 
 export default function Footer() {
   return (
-    <Container id="privacy-policy" className="mt-3 mb-5">
+    <Container className="privacy-policy mt-3 mb-5">
       <Row>
-        <Col lg={12} id="privacy">
+        <Col lg={12} className="privacy-policy__content">
           <h1>Política de Privacidade</h1>
           <hr />
           <p>

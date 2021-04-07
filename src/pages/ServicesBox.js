@@ -55,9 +55,9 @@ export default function ServicesBox() {
   }, [id]);
 
   return (
-    <Container id="gallery" className="mt-2">
+    <Container className="gallery mt-2">
       <Row>
-        <Col className="content-box " xl="5">
+        <Col className="gallery__box " xl="5">
           <h1 className="display-4">{services[id - 1].title}</h1>
 
           <p>{services[id - 1].description}</p>
@@ -85,7 +85,7 @@ export default function ServicesBox() {
                 id="175199926"
                 type="text"
                 name="entry.175199926"
-                class="form-control"
+                className="form-control artvogue__font"
                 required
               />
             </FormGroup>
@@ -95,7 +95,7 @@ export default function ServicesBox() {
                 id="483006589"
                 type="text"
                 name="entry.483006589"
-                class="form-control"
+                className="form-control artvogue__font"
               />
             </FormGroup>
             <FormGroup>
@@ -103,7 +103,7 @@ export default function ServicesBox() {
               <Input
                 id="1422977614"
                 name="entry.1422977614"
-                class="form-control"
+                className="form-control artvogue__font"
               />
             </FormGroup>
             <FormGroup tag="fieldset">
@@ -129,19 +129,23 @@ export default function ServicesBox() {
                 type="textarea"
                 id="979805659"
                 name="entry.979805659"
-                class="form-control"
+                className="form-control artvogue__font"
                 required
               />
             </FormGroup>
             <FormGroup check>
-              <Label check>
+              <Label check className="privacy__term">
                 <Input
                   type="checkbox"
                   id="privacy-policy"
                   onChange={checkboxHandler}
                 />{' '}
                 Concordo com a{' '}
-                <a href="/politica-de-privadade" target="_blank">
+                <a
+                  className="privacy__term"
+                  href="/politica-de-privadade"
+                  target="_blank"
+                >
                   Politica de Privacidade
                 </a>
               </Label>
@@ -152,7 +156,7 @@ export default function ServicesBox() {
             <Input type="hidden" name="pageHistory" value="0" />
 
             <Input
-              class="btn btn-primary"
+              className="btn btn-secondary"
               type="submit"
               value="Enviar"
               onClick={toggle}

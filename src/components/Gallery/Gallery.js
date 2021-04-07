@@ -4,9 +4,9 @@ import Carousell from '../Carousel/Carousell';
 
 export default function Gallery() {
   return (
-    <Container id="gallery" className="mt-2">
+    <Container className="gallery mt-2">
       <Row>
-        <Col className="content-box " xl="5">
+        <Col className="gallery__box" xl="5">
           <h1 className="display-4">SERVIÇOS</h1>
           <h1 className="display-4">OBRAS</h1>
           <h1 className="display-4">E REFORMAS</h1>

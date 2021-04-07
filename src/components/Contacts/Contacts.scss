@@ -15,12 +15,6 @@
   padding-bottom: 16px;
 }
 
-.contact__submit {
-  border-color: $secondary;
-  background-color: $secondary;
-  color: white;
-}
-
 .contact__input {
   height: 3rem;
   margin-bottom: 2rem;
@@ -36,4 +30,10 @@
 
 .contact__policy {
   font-weight: 500;
+}
+
+.contact__submit {
+  border-color: $secondary;
+  background-color: $secondary;
+  color: white;
 }

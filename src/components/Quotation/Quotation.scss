@@ -1,6 +1,6 @@
 @import '../../sassStyles/variables';
 
-#quotation {
+.quotation {
   -webkit-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
   -moz-box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
   box-shadow: 0px 2px 6px 1px rgba(148, 148, 148, 1);
@@ -9,18 +9,14 @@
   color: $textLightColor;
 }
 
-#quotation img {
+.quotation__img {
   padding-bottom: 16px;
 }
 
-#quotation h3 {
-  padding-bottom: 16px;
-}
-
-#quotation > h1 {
+.quotation__title {
   margin-bottom: 2rem;
 }
-
-#bootstrapForm > div.form-check > label > a {
+.privacy__term {
   color: $textLightColor;
+  font-size: 1rem;
 }

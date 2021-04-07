@@ -1,16 +1,16 @@
 @import '../../sassStyles/variables';
 
-#privacy {
+.privacy-policy__content {
   padding: 16px;
   color: $textLightColor;
   font-family: Roboto;
 }
 
-#privacy p {
+.privacy-policy__content p {
   text-align: justify;
   color:rgb(106, 104, 104);
 }
 
-#privacy h1 {
+.privacy-policy__content h1 {
   padding-bottom: 16px;
 }

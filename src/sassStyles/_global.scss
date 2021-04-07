@@ -48,11 +48,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.artvogue__font {
+  color: $textLightColor;
+}
 
 .artvogue-forms .form-control {
   height: 3rem;
   border-color: $orangeColor;
-  color: $textLightColor;
 }
 
 .artvogue-forms {
@@ -77,4 +79,7 @@ body {
 
 #root > div > div.cookie > div:nth-child(1) > a:hover {
   color: $orangeColor;
+}
+
+.form__button {
 }

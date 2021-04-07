@@ -33,12 +33,21 @@ export default function Quotation() {
     <Container className="mt-5">
       <Row>
         <Col cl={12}>
-          <Jumbotron id="quotation">
-            <img src={logo} alt="logo" height="68px" />
-            <h1>SEJA NOSSO PARCEIRO</h1>
+          <Jumbotron className="quotation">
+            <img
+              className="quotation__img"
+              src={logo}
+              alt="logo"
+              height="68px"
+            />
+            <h1 className="quotation__title">SEJA NOSSO PARCEIRO</h1>
 
             <p>
-              <Button variant="primary" onClick={toggle}>
+              <Button
+                className="quotation__button"
+                variant="primary"
+                onClick={toggle}
+              >
                 Cadastro - Parceiros
               </Button>
             </p>
@@ -60,7 +69,7 @@ export default function Quotation() {
                     id="175199926"
                     type="text"
                     name="entry.175199926"
-                    class="form-control"
+                    className="form-control artvogue__font"
                     required
                   />
                 </FormGroup>
@@ -70,7 +79,7 @@ export default function Quotation() {
                     id="483006589"
                     type="text"
                     name="entry.483006589"
-                    class="form-control"
+                    className="form-control artvogue__font"
                   />
                 </FormGroup>
                 <FormGroup>
@@ -78,7 +87,7 @@ export default function Quotation() {
                   <Input
                     id="801317577"
                     name="entry.801317577"
-                    class="form-control"
+                    className="form-control artvogue__font"
                     required
                   />
                 </FormGroup>
@@ -132,18 +141,22 @@ export default function Quotation() {
                   <Input
                     id="999199171"
                     name="entry.999199171"
-                    class="form-control"
+                    className="form-control artvogue__font"
                   />
                 </FormGroup>
                 <FormGroup check>
-                  <Label check>
+                  <Label check className="privacy__term">
                     <Input
                       type="checkbox"
                       id="privacy-policy"
                       onChange={checkboxHandler}
                     />{' '}
                     Concordo com a{' '}
-                    <a href="/politica-de-privadade" target="_blank">
+                    <a
+                      className="privacy__term"
+                      href="/politica-de-privadade"
+                      target="_blank"
+                    >
                       Politica de Privacidade
                     </a>
                   </Label>
@@ -154,7 +167,7 @@ export default function Quotation() {
                 <Input type="hidden" name="pageHistory" value="0" />
 
                 <Input
-                  class="btn btn-primary"
+                  className="btn btn-secondary"
                   type="submit"
                   value="Enviar"
                   onClick={toggle}

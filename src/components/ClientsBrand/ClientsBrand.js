@@ -48,8 +48,8 @@ export default function ClientsBrand() {
       <Slider {...settings}>
         {clients.map((x) => (
           <div key={`Clients-${x.id}`}>
-            <div className="brand-item">
-              <div className="img-container">
+            <div className="clients-brand__item">
+              <div className="clients-brand__img-container">
                 <img src={x.src} alt={x.alt} className="mx-auto d-block" />
               </div>
             </div>

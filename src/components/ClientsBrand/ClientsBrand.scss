@@ -3,7 +3,7 @@
 #clients-brand {
   padding: 0px;
 }
-.brand-item {
+.clients-brand__item {
   background-color: rgba(194, 193, 193, 0.8);
   border-radius: 15px;
   color: white;
@@ -11,26 +11,11 @@
   padding: 15px;
   transition: all ease-out 0.2s;
 }
-.brand-item:hover {
+.clients-brand__item:hover {
   background-color: rgba(158, 158, 158, 0.8);
   box-shadow: 0px 0px 10px 0px rgba(128, 122, 122, 0.12);
 }
 
-.brand_title {
-  font-weight: 500;
-  margin-top: 5px;
-  display: block;
-  color: $textLightColor;
-  text-align: center;
-  text-decoration: none;
-  transition: all ease-out 0.2s;
-}
-.destaque_title:hover {
-  color: #000;
-  text-decoration: none;
-  box-shadow: 0px 0px 10px 0px rgba(128, 122, 122, 0.12);
-}
-
-.img-container {
+.clients-brand__img-container {
   margin: 0 5px 0 5px;
 }
