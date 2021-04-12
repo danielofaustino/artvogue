@@ -24,7 +24,7 @@ export default function Footer() {
             <Inbox className="mx-1" size={35} fill="#fe914e" />
           </a>
           <a href="tel:+55-11-98167-9358">
-            <Telefone className="mx-1" size={35} fill="#005500" />
+            <Telefone className="mx-1" size={35} fill="#32875E" />
           </a>
         </Col>
       </Row>
