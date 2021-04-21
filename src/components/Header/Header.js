@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import {
   Collapse,
@@ -28,36 +29,46 @@ const Header = () => {
   return (
     <div className="container-flex">
       <Navbar color="primary" fixed="top" light expand="md">
-        <NavbarBrand href="/">
-          <img className="logo" height="60px" src={logo} alt="Logo" />
-        </NavbarBrand>
+        <Link to="/">
+          <NavbarBrand>
+            <img className="logo" height="60px" src={logo} alt="Logo" />
+          </NavbarBrand>
+        </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar id="navbarScroll">
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/">HOME</NavLink>
+              <Link to="/" className="nav-link">
+                <NavLink>HOME</NavLink>
+              </Link>
             </NavItem>
 
             <NavItem>
-              <NavLink href="/about">QUEM SOMOS</NavLink>
+              <Link to="/about" className="nav-link">
+                <NavLink>QUEM SOMOS</NavLink>
+              </Link>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
+            <UncontrolledDropdown nav inNavbar className="nav-link">
               <DropdownToggle nav caret>
                 SERVIÇOS
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem href="/services/1">Serviços</DropdownItem>
+                <Link to="/services/1">
+                  <DropdownItem>Serviços</DropdownItem>
+                </Link>
                 <DropdownItem divider />
 
                 {services.map((x) => (
-                  <DropdownItem key={`DropDown-${x.id}`} href={x.href}>
-                    {x.title}
-                  </DropdownItem>
+                  <Link key={`DropDown-${x.id}`} to={x.href}>
+                    <DropdownItem>{x.title}</DropdownItem>
+                  </Link>
                 ))}
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="/contatos">CONTATOS</NavLink>
+              <Link to="/contatos" className="nav-link">
+                <NavLink>CONTATOS</NavLink>
+              </Link>
             </NavItem>
           </Nav>
           <a

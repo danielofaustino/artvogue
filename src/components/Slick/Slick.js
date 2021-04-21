@@ -1,6 +1,7 @@
 import { Container } from 'reactstrap';
 import React from 'react';
 import Slider from 'react-slick';
+import { Link } from 'react-router-dom';
 import { dataBase } from '../../data';
 
 export default function Slick() {
@@ -58,7 +59,7 @@ export default function Slick() {
         {services.map((x) => (
           <div key={`Slider-${x.id}`}>
             <div className="services-item">
-              <a href={x.href} className="destaque">
+              <Link to={x.href}>
                 <div className="img-container">
                   <img
                     src={x.iconSrc}
@@ -67,11 +68,11 @@ export default function Slick() {
                     className="mx-auto d-block"
                   />
                 </div>
-              </a>
+              </Link>
             </div>
-            <a href={x.href} className="destaque_title">
+            <Link to={x.href} className="destaque_title">
               {x.title.toUpperCase()}
-            </a>
+            </Link>
           </div>
         ))}
       </Slider>
