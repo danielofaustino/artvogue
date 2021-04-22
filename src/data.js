@@ -159,9 +159,9 @@ export const dataBase = [
       },
       {
         id: 9,
-        title: 'Revestimentos',
+        title: 'Pisos e Revestimentos',
         iconSrc: Revestimentos,
-        alt: 'Revestimentos',
+        alt: 'Pisos e Revestimentos',
         href: `/services/9`,
         form: 'https://www.google.com.br',
         description:
