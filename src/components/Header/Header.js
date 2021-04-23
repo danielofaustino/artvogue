@@ -59,7 +59,7 @@ const Header = () => {
                 <DropdownItem divider />
 
                 {services.map((x) => (
-                  <Link key={`DropDown-${x.id}`} to={x.href}>
+                  <Link key={`DropDown-${x.id}`} to={x.href} onClick={toggle}>
                     <DropdownItem>{x.title}</DropdownItem>
                   </Link>
                 ))}
