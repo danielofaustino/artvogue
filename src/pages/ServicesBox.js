@@ -42,8 +42,8 @@ export default function ServicesBox() {
     setItems(x);
   }
 
-  useEffect(() => {
-    const service = services[id - 1].images.map((x) => ({
+  useEffect(async () => {
+    const service = await services[id - 1].images.map((x) => ({
       src: x,
       altText: services[id - 1].alt,
       caption: '',
@@ -65,7 +65,7 @@ export default function ServicesBox() {
             Orçamento - {services[id - 1].title}{' '}
           </Button>
         </Col>
-        <Col className="align-self-center" xl="7">
+        <Col className="align-self-center gallery__services" xl="7">
           <UncontrolledCarousel items={items} />
         </Col>
       </Row>
